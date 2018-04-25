@@ -28,6 +28,9 @@ export class LoginPage {
   }
 
   login() {
+    
+    //ÄNDRIIIIIING 
+    
     let loading = this.loadingCtrl.create({
       content: 'Please wait...'
     });
