@@ -2,14 +2,18 @@
 .log-in {
     background:color($colors, midnight);
     color:color($colors, light);
-}  
-
+    
+}
 .today {
     background:color($colors, midnight);
-    color:color($colors, light);
-}  
-
-.log-in {
+    color:color($colors, textColor);
+    margin-top:30px;  
+}
+.menu {
     background:color($colors, midnight);
     color:color($colors, light);
-}  
+}
+.places {
+    background:color($colors, midnight);
+    color:color($colors, light);
+}

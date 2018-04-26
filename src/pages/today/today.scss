@@ -1,3 +1,20 @@
 page-today {
+    ul {
+        list-style: none;
+        padding-left: 10px;
+
+        li {
+            padding-top: 10px;
+        }
+    }
+
+    a {
+        color: color($colors, textColor);
+        text-decoration: none;
+        
+        &:hover {
+            color: color($colors, light);
+        }
+    }
 
 }
