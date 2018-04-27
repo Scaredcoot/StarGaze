@@ -1,4 +1,7 @@
 page-today {
+
+
+    
     ul {
         list-style: none;
         padding-left: 10px;
@@ -9,12 +12,13 @@ page-today {
     }
 
     a {
-        color: color($colors, textColor);
+        color: color($colors, light);
         text-decoration: none;
         
         &:hover {
-            color: color($colors, light);
+            color: color($colors, primary);
         }
     }
+    
 
 }

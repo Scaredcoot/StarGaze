@@ -30548,7 +30548,7 @@ ion-navbar.toolbar {
 
 .places {
   background: #380b61;
-  color: #f4f4f4;
+  color: #df7401;
 }
 
 page-log-in .logga {
@@ -30567,6 +30567,24 @@ page-menu .menuButton button {
   margin-left: 0;
 }
 
+page-places ul {
+  list-style: none;
+  padding-left: 10px;
+}
+
+page-places ul li {
+  padding-top: 10px;
+}
+
+page-places a {
+  color: #f4f4f4;
+  text-decoration: none;
+}
+
+page-places a:hover {
+  color: #488aff;
+}
+
 page-today ul {
   list-style: none;
   padding-left: 10px;
@@ -30577,10 +30595,10 @@ page-today ul li {
 }
 
 page-today a {
-  color: #df7401;
+  color: #f4f4f4;
   text-decoration: none;
 }
 
 page-today a:hover {
-  color: #f4f4f4;
+  color: #488aff;
 }
