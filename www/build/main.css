@@ -30538,7 +30538,6 @@ ion-navbar.toolbar {
 .today {
   background: #380b61;
   color: #df7401;
-  margin-top: 30px;
 }
 
 .menu {
@@ -30556,11 +30555,11 @@ page-log-in .logga {
 }
 
 page-log-in .logga button {
-  margin-left: 17%;
+  margin-left: 0%;
 }
 
 page-menu .menuButton {
-  margin-top: 120px;
+  margin-top: 0px;
 }
 
 page-menu .menuButton button {
@@ -30583,6 +30582,10 @@ page-places a {
 
 page-places a:hover {
   color: #488aff;
+}
+
+page-places .alignright {
+  float: right;
 }
 
 page-today ul {
