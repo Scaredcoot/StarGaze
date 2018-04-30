@@ -16,13 +16,21 @@ $colors: (
   light:      #f4f4f4,
   dark:       #222,
   midnight:   #380b61,
-  textColor:  #df7401 
+  textColor:  #df7401,
+  textBlack:  black,
+  toolbarColor: #240B3B
 );
 
+//-ios för iPhone & -md för Android
+//Top toolbar
+$toolbar-ios-background:color($colors, toolbarColor);
 
-$toolbar-md-background:color($colors, primary);
+//Tabs
+$tabs-ios-background:color($colors, toolbarColor);
+$tabs-ios-tab-color-active:color($colors, textColor);
+$tabs-ios-tab-text-color:color($colors, textBlack);
 
-$tabs-md-background:color($colors, secondary);
+
 
 @import "ionic.theme.default";
 

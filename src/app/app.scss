@@ -16,3 +16,12 @@
     background:color($colors, midnight);
     color:color($colors, textColor);
 }
+.tabs-ios .tab-button-icon {
+    color:color($colors, textBlack);
+}
+.toolbar-title {
+    color:color($colors, textColor);
+}
+.scroll-content{
+    overflow-y: hidden;
+}
