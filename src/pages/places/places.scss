@@ -5,7 +5,16 @@ page-places {
 
         li {
             padding-top: 10px;
+
         }
+        
+        p {
+            margin-bottom: -50%;
+        }
+        div {
+            margin-bottom: 0%
+        }
+       
     }
 
     a {
@@ -21,11 +30,23 @@ page-places {
     .alignright {
         float: right;
     }
+   .cards{
+       ion-card{
+           position: relative;
+           text-align: center;
+            }
 
+       width: 100px;
+       height: 70px;
+     div{
+         
+     } 
+       display: grid;
+       grid-template-columns: repeat(3, 1fr);
+       grid-auto-rows: auto;
+       grid-gap: 10px;
+   }
     
-    
-    
-
 }
 
 
