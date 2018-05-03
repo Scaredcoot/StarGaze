@@ -1,14 +1,14 @@
 webpackJsonp([1],{
 
-/***/ 278:
+/***/ 281:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PlacesPageModule", function() { return PlacesPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NackaPageModule", function() { return NackaPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__places__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__nacka__ = __webpack_require__(288);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var PlacesPageModule = /** @class */ (function () {
-    function PlacesPageModule() {
+var NackaPageModule = /** @class */ (function () {
+    function NackaPageModule() {
     }
-    PlacesPageModule = __decorate([
+    NackaPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__places__["a" /* PlacesPage */],
+                __WEBPACK_IMPORTED_MODULE_2__nacka__["a" /* NackaPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__places__["a" /* PlacesPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__nacka__["a" /* NackaPage */]),
             ],
         })
-    ], PlacesPageModule);
-    return PlacesPageModule;
+    ], NackaPageModule);
+    return NackaPageModule;
 }());
 
-//# sourceMappingURL=places.module.js.map
+//# sourceMappingURL=nacka.module.js.map
 
 /***/ })
 

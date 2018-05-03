@@ -1,13 +1,11 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { PlacesPage } from '../places/places';
+import { GardetPage} from '../gardet/gardet';
+import { NackaPage} from '../nacka/nacka';
+import { JarvaPage} from '../jarva/jarva';
+import { GrimstaPage} from '../grimsta/grimsta';
+import { TyrestaPage} from '../tyresta/tyresta';
 
-/**
- * Generated class for the TodayPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
 
 @IonicPage()
 @Component({
@@ -20,8 +18,20 @@ export class TodayPage {
     
   }
   GardetPlaces(){
-    this.navCtrl.push(PlacesPage);
+    this.navCtrl.push(GardetPage);
     }
+    JarvaPlaces(){
+      this.navCtrl.push(JarvaPage);
+      }
+      NackaPlaces(){
+        this.navCtrl.push(NackaPage);
+        }
+        TyrestaPlaces(){
+          this.navCtrl.push(TyrestaPage);
+          }
+          GrimstaPlaces(){
+            this.navCtrl.push(GrimstaPage);
+            }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad TodayPage');
