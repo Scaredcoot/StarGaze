@@ -22,6 +22,12 @@
 .toolbar-title {
     color:color($colors, textColor);
 }
+
+
+.settings {
+    background:color($colors, midnight);
+    color:color($colors, textColor);
+}
 /*Döljer scrollbaren
 .scroll-content{
     overflow-y: hidden;

@@ -11,9 +11,11 @@ import { LogInPage } from '../pages/log-in/log-in';
 import { TodayPage } from '../pages/today/today';
 import { MenuPage } from '../pages/menu/menu';
 import { PlacesPage} from '../pages/places/places';
+import { SettingsPage} from '../pages/settings/settings';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+
 
 @NgModule({
   declarations: [
@@ -25,7 +27,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     LogInPage,
     TodayPage,
     MenuPage,
-    PlacesPage
+    PlacesPage,
+    SettingsPage
  
   ],
   imports: [
@@ -42,12 +45,13 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     LogInPage,
     TodayPage,
     MenuPage,
-    PlacesPage
+    PlacesPage,
+    SettingsPage
   ],
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
   ]
 })
 export class AppModule {}
