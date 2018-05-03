@@ -18,7 +18,8 @@ $colors: (
   midnight:   #380b61,
   textColor:  #df7401,
   textBlack:  black,
-  toolbarColor: #240B3B
+  toolbarColor: #240B3B,
+  tabColor: rgba(251, 245, 253, 0.133)
 );
 
 //-ios för iPhone & -md för Android
@@ -28,7 +29,7 @@ $toolbar-ios-background:color($colors, toolbarColor);
 //Tabs
 $tabs-ios-background:color($colors, toolbarColor);
 $tabs-ios-tab-color-active:color($colors, textColor);
-$tabs-ios-tab-text-color:color($colors, textBlack);
+$tabs-ios-tab-text-color:color($colors, tabColor);
 
 
 

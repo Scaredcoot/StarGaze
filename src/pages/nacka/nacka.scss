@@ -1,0 +1,56 @@
+page-nacka {
+    ul {
+        list-style: none;
+        padding-left: 10px;
+
+        li {
+            padding-top: 10px;
+
+        }
+        
+        p {
+            margin-bottom: -50%;
+        }
+        div {
+            margin-bottom: 0%
+        }
+       
+    }
+
+    a {
+        color: color($colors, light);
+        text-decoration: none;
+        
+        &:hover {
+            color: color($colors, primary);
+        }
+    }
+    
+    //för att högerställa status 
+    .alignright {
+        float: right;
+    }
+   .cards{
+       
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: auto;
+        white-space:nowrap;
+
+       ion-card{
+           position: relative;
+           text-align: center;
+          //  box-shadow:2px -1px 24px 2px rgba(0,0,0,0.11);
+            border-radius:4px;
+            }
+
+        div{
+            width: 100px;
+            height: 70px;
+           
+            } 
+   }
+    
+}
+
+

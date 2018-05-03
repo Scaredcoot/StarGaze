@@ -17,19 +17,13 @@
     color:color($colors, textColor);
 }
 .tabs-ios .tab-button-icon {
-    color:color($colors, textBlack);
+    color:color($colors, tabColor);
 }
 .toolbar-title {
     color:color($colors, textColor);
 }
 
-
 .settings {
     background:color($colors, midnight);
     color:color($colors, textColor);
 }
-/*Döljer scrollbaren
-.scroll-content{
-    overflow-y: hidden;
-}
-*/

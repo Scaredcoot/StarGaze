@@ -10,8 +10,12 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { LogInPage } from '../pages/log-in/log-in';
 import { TodayPage } from '../pages/today/today';
 import { MenuPage } from '../pages/menu/menu';
-import { PlacesPage} from '../pages/places/places';
-import { SettingsPage} from '../pages/settings/settings';
+import { GardetPage} from '../pages/gardet/gardet';
+import { JarvaPage} from '../pages/jarva/jarva';
+import { NackaPage} from '../pages/nacka/nacka';
+import { GrimstaPage} from '../pages/grimsta/grimsta';
+import { TyrestaPage} from '../pages/tyresta/tyresta';
+import { SettingsPage } from '../pages/settings/settings';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -27,7 +31,11 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     LogInPage,
     TodayPage,
     MenuPage,
-    PlacesPage,
+    GardetPage,
+    NackaPage,
+    JarvaPage,
+    TyrestaPage,
+    GrimstaPage,
     SettingsPage
  
   ],
@@ -45,7 +53,11 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     LogInPage,
     TodayPage,
     MenuPage,
-    PlacesPage,
+    GardetPage,
+    NackaPage,
+    JarvaPage,
+    TyrestaPage,
+    GrimstaPage,
     SettingsPage
   ],
   providers: [
