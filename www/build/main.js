@@ -34,7 +34,7 @@ var MenuPage = /** @class */ (function () {
     };
     MenuPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-menu',template:/*ion-inline-start:"C:\Users\Choppah\PVT15\StarGaze\src\pages\menu\menu.html"*/'\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>Menu</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n<ion-content padding class="menu">\n\n    <img src="../../assets/imgs/image.png">\n\n   \n\n\n\n    <ion-grid>\n\n        <ion-row>\n\n          <ion-col width-100>\n\n             <div class="menuButton" >\n\n              <button ion-button full round color="textColor">Settings</button>\n\n              <button ion-button full round color="textColor">Facebook Event</button>\n\n              <button ion-button full round color="textColor">Help</button>\n\n              <button ion-button full round color="textColor">Log out</button>\n\n            </div>\n\n            </ion-col>\n\n          </ion-row>\n\n         </ion-grid>  \n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Choppah\PVT15\StarGaze\src\pages\menu\menu.html"*/,
+            selector: 'page-menu',template:/*ion-inline-start:"C:\Users\Choppah\PVT15\StarGaze\src\pages\menu\menu.html"*/'\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>Menu</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n<ion-content padding class="menu">\n\n    <img src="../../assets/imgs/image.png">\n\n   \n\n\n\n    <ion-grid>\n\n        <ion-row>\n\n          <ion-col width-100>\n\n             <div class="menuButton" >\n\n               <ion-item class="ion-toggle">\n\n                 <ion-label>Push notifications </ion-label>\n\n                 <ion-toggle>disabled checked="false"</ion-toggle>\n\n               </ion-item>\n\n              <button ion-button full round color="textColor">Settings</button>\n\n              <button ion-button full round color="textColor">Facebook Event</button>\n\n              <button ion-button full round color="textColor">Help</button>\n\n              <button ion-button full round color="textColor">Log out</button>\n\n            </div>\n\n            </ion-col>\n\n          </ion-row>\n\n         </ion-grid>  \n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Choppah\PVT15\StarGaze\src\pages\menu\menu.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
     ], MenuPage);
@@ -97,6 +97,7 @@ var PlacesPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TodayPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__places_places__ = __webpack_require__(101);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -106,6 +107,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+
 
 
 /**
@@ -119,16 +121,20 @@ var TodayPage = /** @class */ (function () {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
     }
+    TodayPage.prototype.GardetPlaces = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__places_places__["a" /* PlacesPage */]);
+    };
     TodayPage.prototype.ionViewDidLoad = function () {
         console.log('ionViewDidLoad TodayPage');
     };
     TodayPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-today',template:/*ion-inline-start:"C:\Users\Choppah\PVT15\StarGaze\src\pages\today\today.html"*/'<!--\n\n  Generated template for the TodayPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>Status for today</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n\n\n<ion-content padding class= "today">\n\n <ion-img width="40" height="40" src="../../assets/imgs/image2.png"></ion-img>\n\n  <ion-grid>\n\n    <ion-row>\n\n      <ion-col width-50 offset-25>\n\n        <div text-center> <h1 strong> Stockholm today </h1> </div> \n\n        <div text-center> <h5 strong> Status: Good </h5> </div>\n\n        <ul>\n\n          <li>Light: 30 %</li> \n\n          <li>Temp: 11° </li>\n\n          <li>Visibility: 3 km</li>\n\n          <li></li>\n\n          <li></li><li></li>\n\n          <li></li><li></li>\n\n          <li></li>\n\n      </ul>\n\n      </ion-col>\n\n    </ion-row>\n\n    <ion-row>\n\n      <ion-col width-50>\n\n        <h6 strong> Show forecast for... </h6> \n\n          <ul>\n\n            <li><a href="#">Gärdet</a></li> \n\n            <li><a href="#">Tyresta Naturpark</a></li>\n\n            <li><a href="#">Nackareservatet</a></li>\n\n            <li><a href="#">Grimsta</a></li>\n\n            <li><a href="#"> Järvafältet</a></li>\n\n          </ul>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Choppah\PVT15\StarGaze\src\pages\today\today.html"*/,
+            selector: 'page-today',template:/*ion-inline-start:"C:\Users\Choppah\PVT15\StarGaze\src\pages\today\today.html"*/'<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>Status for today</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n\n\n<ion-content padding class= "today">\n\n <ion-img width="40" height="40" src="../../assets/imgs/image2.png"></ion-img>\n\n  <ion-grid>\n\n    <ion-row>\n\n      <ion-col width-50 offset-25>\n\n        <div text-center> <h1 strong> Stockholm today </h1> </div> \n\n        <div text-center> <h5 strong> Status: Good </h5> </div>\n\n        <ul>\n\n          <li>Light: 30 %</li> \n\n          <li>Temp: 11° </li>\n\n          <li>Visibility: 3 km</li>\n\n          <li></li>\n\n          <li></li><li></li>\n\n          <li></li><li></li>\n\n          <li></li>\n\n      </ul>\n\n      </ion-col>\n\n    </ion-row>\n\n    <ion-row>\n\n      <ion-col width-50>\n\n        <h6 strong> Show forecast for... </h6> \n\n          <ul>\n\n            <li><a href="#" (click)="OpenPlaces()">Gärdet</a></li> \n\n            <li><a href="#">Tyresta Naturpark</a></li>\n\n            <li><a href="#">Nackareservatet</a></li>\n\n            <li><a href="#">Grimsta</a></li>\n\n            <li><a href="#"> Järvafältet</a></li>\n\n          </ul>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Choppah\PVT15\StarGaze\src\pages\today\today.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]) === "function" && _b || Object])
     ], TodayPage);
     return TodayPage;
+    var _a, _b;
 }());
 
 //# sourceMappingURL=today.js.map

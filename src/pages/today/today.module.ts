@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { IonicPageModule } from 'ionic-angular';
 import { TodayPage } from './today';
+import { PlacesPage} from '../places/places';
 
 @NgModule({
   declarations: [

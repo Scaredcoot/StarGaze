@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { PlacesPage } from '../places/places';
 
 /**
  * Generated class for the TodayPage page.
@@ -16,7 +17,11 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 export class TodayPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+    
   }
+  GardetPlaces(){
+    this.navCtrl.push(PlacesPage);
+    }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad TodayPage');

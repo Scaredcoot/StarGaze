@@ -7,4 +7,8 @@ page-menu {
               margin-left: 0;
           }
       }
+      .ion-toggle{
+        border-radius:30px;
+        $toggle-ios-background-color-on: color($colors, textColor);
+      }
 }

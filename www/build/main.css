@@ -36486,6 +36486,10 @@ page-menu .menuButton button {
   margin-left: 0;
 }
 
+page-menu .ion-toggle {
+  border-radius: 30px;
+}
+
 page-places ul {
   list-style: none;
   padding-left: 10px;
