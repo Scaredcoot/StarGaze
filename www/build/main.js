@@ -261,7 +261,7 @@ var TabsPage = /** @class */ (function () {
         this.tab4Root = __WEBPACK_IMPORTED_MODULE_4__places_places__["a" /* PlacesPage */];
     }
     TabsPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Choppah\PVT15\StarGaze\src\pages\tabs\tabs.html"*/'<ion-tabs>\n\n  <ion-tab [root]="tab1Root" tabTitle="Log in" tabIcon="ios-log-in"></ion-tab>\n\n  <ion-tab [root]="tab2Root" tabTitle="Today" tabIcon="ios-cloud-circle-outline"></ion-tab>\n\n  <ion-tab [root]="tab4Root" tabTitle="Places" tabIcon="star-outline"></ion-tab>\n\n  <ion-tab [root]="tab3Root" tabTitle="Menu" tabIcon="menu"></ion-tab>\n\n  \n\n</ion-tabs>\n\n'/*ion-inline-end:"C:\Users\Choppah\PVT15\StarGaze\src\pages\tabs\tabs.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Choppah\PVT15\StarGaze\src\pages\tabs\tabs.html"*/'<ion-tabs>\n\n  <ion-tab [root]="tab1Root" tabTitle="Log in" tabIcon="ios-log-in"></ion-tab>\n\n  <ion-tab [root]="tab2Root" tabTitle="Today" tabIcon="star-outline"></ion-tab>\n\n  <ion-tab [root]="tab3Root" tabTitle="Menu" tabIcon="menu"></ion-tab>\n\n  \n\n</ion-tabs>\n\n'/*ion-inline-end:"C:\Users\Choppah\PVT15\StarGaze\src\pages\tabs\tabs.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], TabsPage);
