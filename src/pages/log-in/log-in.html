@@ -17,9 +17,16 @@
 <ion-row>
   <ion-col width-100>
      <div class="logga" >
-      <button ion-button full round>Log in with Facebook</button>
+      <button ion-button full round (click)="loginWithFacebook()">Log in with Facebook</button>
       <button ion-button full round color="danger">Log in with Google</button>
     </div>
+    <ion-card *ngIf="userData">
+      <ion-card-header>{{ userData.username }}</ion-card-header>
+     <img [src]="userData.picture">
+     <ion-card-content>
+       <p>First Name: {{ userData.first_name }}</p>
+     </ion-card-content>
+    </ion-card>
     </ion-col>
 </ion-row>
  </ion-grid>  

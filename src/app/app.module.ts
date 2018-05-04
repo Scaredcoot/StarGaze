@@ -16,6 +16,8 @@ import { NackaPage} from '../pages/nacka/nacka';
 import { GrimstaPage} from '../pages/grimsta/grimsta';
 import { TyrestaPage} from '../pages/tyresta/tyresta';
 
+import { Facebook } from '@ionic-native/facebook';
+
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
@@ -59,7 +61,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    Facebook
   ]
 })
 export class AppModule {}
