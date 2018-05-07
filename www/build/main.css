@@ -39820,6 +39820,32 @@ ion-navbar.toolbar {
   overflow-y: hidden;
 }
 
+page-gardet .weather-factors {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+page-gardet .scroll-content {
+  overflow-y: scroll;
+}
+
+page-gardet .thermo-col {
+  border-left: 1px solid rgba(238, 238, 238, 0.2);
+  border-right: 1px solid rgba(238, 238, 238, 0.2);
+}
+
+page-gardet .status {
+  margin-top: 25px;
+}
+
+page-gardet .divider {
+  background: rgba(238, 238, 238, 0.2);
+}
+
+page-gardet .forecast {
+  color: #f4f4f4;
+}
+
 page-gardet ul {
   list-style: none;
   padding-left: 10px;

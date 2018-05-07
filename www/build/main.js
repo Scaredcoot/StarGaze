@@ -34,7 +34,7 @@ var GardetPage = /** @class */ (function () {
     };
     GardetPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-gardet',template:/*ion-inline-start:"C:\Users\Choppah\PVT15\StarGaze\src\pages\gardet\gardet.html"*/'<ion-header>\n\n    <ion-navbar>\n      <ion-title>Places</ion-title>\n    </ion-navbar>\n  \n  </ion-header>\n  \n  \n  <ion-content padding class="places">\n      <ion-img width="40" height="40" src="../../assets/imgs/image2.png"></ion-img>\n    <ion-grid>\n      <ion-row>\n        <ion-col width-50 offset-25>\n          <div text-center>\n            <h1 strong> Gärdet tonight</h1>\n          </div>\n          <div text-center>\n            <h5 strong> Status: Good </h5>\n          </div>\n          \n    \n        <ion-scroll class="scroll" style="width:100%; height:160px">\n         <div class="cards">\n          <ion-card>\n            <ion-card-header>\n              Light\n            </ion-card-header>\n            <ion-card-content>\n              30%\n            </ion-card-content>\n          </ion-card>\n          <ion-card>\n              <ion-card-header>\n                Temp\n              </ion-card-header>\n              <ion-card-content>\n                11\n              </ion-card-content>\n            </ion-card>\n           <ion-card>\n               <ion-card-header>\n                Visibility\n              </ion-card-header>\n              <ion-card-content>\n                3 km\n              </ion-card-content>\n            </ion-card>\n          </div>\n         </ion-scroll>\n         \n        </ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col width-50>\n          <h6 strong> Forecast </h6>\n          <ul>\n            <p class="alignright">Good</p>\n            <li>Tuesday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Good</p>\n            <li>Wednesday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Bad</p>\n            <li>Thursday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Good</p>\n            <li>Friday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Bad</p>\n            <li>Saturday</li>\n            <div style="clear: both;"></div>\n  \n          </ul>\n          \n        </ion-col>\n      </ion-row>\n    </ion-grid>\n  \n  \n  \n  \n  </ion-content>\n'/*ion-inline-end:"C:\Users\Choppah\PVT15\StarGaze\src\pages\gardet\gardet.html"*/,
+            selector: 'page-gardet',template:/*ion-inline-start:"/Users/nadia/Documents/GitHub/StarGaze/src/pages/gardet/gardet.html"*/'<ion-header>\n\n    <ion-navbar>\n      <ion-title>Places</ion-title>\n    </ion-navbar>\n  \n  </ion-header>\n  \n  \n  <ion-content scroll="true" padding class="places">\n    <ion-grid>\n      <ion-row>\n        <ion-col>\n          <div text-center>\n            <h1 strong> Gärdet tonight</h1>\n          </div>\n          <div class="status" text-center>\n            <h5 strong>Good </h5>\n            <p>\n                <ion-icon name="star"></ion-icon>\n                <ion-icon name="star"></ion-icon>\n                <ion-icon name="star"></ion-icon>\n                <ion-icon name="star-outline"></ion-icon>\n            </p>\n            \n          </div>\n        </ion-col>\n      </ion-row>\n    \n        <ion-row class="weather-factors" text-center>\n          <ion-col col-4>\n            <ion-icon name="sunny"></ion-icon>\n           <!-- <p>Light</p> -->\n            <p>30%</p>  \n          </ion-col>\n\n          <ion-col class="thermo-col" col-4>\n            <ion-icon name="thermometer"></ion-icon>\n           <!-- <p>Temp</p> -->\n            <p>11&deg;</p>  \n          </ion-col>\n\n          <ion-col col-4>\n            <ion-icon name="cloud"></ion-icon>\n            <!-- <p>Cloudiness</p> -->\n            <p>3 km</p>  \n          </ion-col>\n        </ion-row>\n          \n    \n      <ion-row >\n        <ion-col class="forecast" >\n          <h6 strong> Forecast </h6>\n          <hr class="divider">\n          <ul>\n            <p class="alignright">Good</p>\n            <li>Tuesday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Good</p>\n            <li>Wednesday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Bad</p>\n            <li>Thursday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Good</p>\n            <li>Friday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Bad</p>\n            <li>Saturday</li>\n            <div style="clear: both;"></div>\n  \n          </ul>\n          \n          \n          \n        </ion-col>\n      </ion-row>\n    </ion-grid>\n  \n  \n  \n  \n  </ion-content>\n'/*ion-inline-end:"/Users/nadia/Documents/GitHub/StarGaze/src/pages/gardet/gardet.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
     ], GardetPage);
@@ -79,7 +79,7 @@ var GrimstaPage = /** @class */ (function () {
     };
     GrimstaPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-grimsta',template:/*ion-inline-start:"C:\Users\Choppah\PVT15\StarGaze\src\pages\grimsta\grimsta.html"*/'<ion-header>\n\n    <ion-navbar>\n      <ion-title>Places</ion-title>\n    </ion-navbar>\n  \n  </ion-header>\n  \n  \n  <ion-content padding class="places">\n      <ion-img width="40" height="40" src="../../assets/imgs/image2.png"></ion-img>\n    <ion-grid>\n      <ion-row>\n        <ion-col width-50 offset-25>\n          <div text-center>\n            <h1 strong> Grimsta tonight</h1>\n          </div>\n          <div text-center>\n            <h5 strong> Status: Good </h5>\n          </div>\n          \n    \n        <ion-scroll class="scroll" style="width:100%; height:160px">\n         <div class="cards">\n          <ion-card>\n            <ion-card-header>\n              Light\n            </ion-card-header>\n            <ion-card-content>\n              30%\n            </ion-card-content>\n          </ion-card>\n          <ion-card>\n              <ion-card-header>\n                Temp\n              </ion-card-header>\n              <ion-card-content>\n                11\n              </ion-card-content>\n            </ion-card>\n           <ion-card>\n               <ion-card-header>\n                Visibility\n              </ion-card-header>\n              <ion-card-content>\n                3 km\n              </ion-card-content>\n            </ion-card>\n          </div>\n         </ion-scroll>\n         \n        </ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col width-50>\n          <h6 strong> Forecast </h6>\n          <ul>\n            <p class="alignright">Good</p>\n            <li>Tuesday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Good</p>\n            <li>Wednesday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Bad</p>\n            <li>Thursday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Good</p>\n            <li>Friday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Bad</p>\n            <li>Saturday</li>\n            <div style="clear: both;"></div>\n  \n          </ul>\n          \n        </ion-col>\n      </ion-row>\n    </ion-grid>\n  \n  \n  \n  \n  </ion-content>\n'/*ion-inline-end:"C:\Users\Choppah\PVT15\StarGaze\src\pages\grimsta\grimsta.html"*/,
+            selector: 'page-grimsta',template:/*ion-inline-start:"/Users/nadia/Documents/GitHub/StarGaze/src/pages/grimsta/grimsta.html"*/'<ion-header>\n\n    <ion-navbar>\n      <ion-title>Places</ion-title>\n    </ion-navbar>\n  \n  </ion-header>\n  \n  \n  <ion-content padding class="places">\n      <ion-img width="40" height="40" src="../../assets/imgs/image2.png"></ion-img>\n    <ion-grid>\n      <ion-row>\n        <ion-col width-50 offset-25>\n          <div text-center>\n            <h1 strong> Grimsta tonight</h1>\n          </div>\n          <div text-center>\n            <h5 strong> Status: Good </h5>\n          </div>\n          \n    \n        <ion-scroll class="scroll" style="width:100%; height:160px">\n         <div class="cards">\n          <ion-card>\n            <ion-card-header>\n              Light\n            </ion-card-header>\n            <ion-card-content>\n              30%\n            </ion-card-content>\n          </ion-card>\n          <ion-card>\n              <ion-card-header>\n                Temp\n              </ion-card-header>\n              <ion-card-content>\n                11\n              </ion-card-content>\n            </ion-card>\n           <ion-card>\n               <ion-card-header>\n                Visibility\n              </ion-card-header>\n              <ion-card-content>\n                3 km\n              </ion-card-content>\n            </ion-card>\n          </div>\n         </ion-scroll>\n         \n        </ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col width-50>\n          <h6 strong> Forecast </h6>\n          <ul>\n            <p class="alignright">Good</p>\n            <li>Tuesday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Good</p>\n            <li>Wednesday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Bad</p>\n            <li>Thursday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Good</p>\n            <li>Friday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Bad</p>\n            <li>Saturday</li>\n            <div style="clear: both;"></div>\n  \n          </ul>\n          \n        </ion-col>\n      </ion-row>\n    </ion-grid>\n  \n  \n  \n  \n  </ion-content>\n'/*ion-inline-end:"/Users/nadia/Documents/GitHub/StarGaze/src/pages/grimsta/grimsta.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
     ], GrimstaPage);
@@ -91,96 +91,6 @@ var GrimstaPage = /** @class */ (function () {
 /***/ }),
 
 /***/ 102:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return JarvaPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the JarvaPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var JarvaPage = /** @class */ (function () {
-    function JarvaPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    JarvaPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad JarvaPage');
-    };
-    JarvaPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-jarva',template:/*ion-inline-start:"C:\Users\Choppah\PVT15\StarGaze\src\pages\jarva\jarva.html"*/'<ion-header>\n\n    <ion-navbar>\n      <ion-title>Places</ion-title>\n    </ion-navbar>\n  \n  </ion-header>\n  \n  \n  <ion-content padding class="places">\n      <ion-img width="40" height="40" src="../../assets/imgs/image2.png"></ion-img>\n    <ion-grid>\n      <ion-row>\n        <ion-col width-50 offset-25>\n          <div text-center>\n            <h1 strong> Järvafältet today</h1>\n          </div>\n          <div text-center>\n            <h5 strong> Status: Good </h5>\n          </div>\n          \n    \n        <ion-scroll class="scroll" style="width:100%; height:160px">\n         <div class="cards">\n          <ion-card>\n            <ion-card-header>\n              Light\n            </ion-card-header>\n            <ion-card-content>\n              30%\n            </ion-card-content>\n          </ion-card>\n          <ion-card>\n              <ion-card-header>\n                Temp\n              </ion-card-header>\n              <ion-card-content>\n                11\n              </ion-card-content>\n            </ion-card>\n           <ion-card>\n               <ion-card-header>\n                Visibility\n              </ion-card-header>\n              <ion-card-content>\n                3 km\n              </ion-card-content>\n            </ion-card>\n          </div>\n         </ion-scroll>\n         \n        </ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col width-50>\n          <h6 strong> Forecast </h6>\n          <ul>\n            <p class="alignright">Good</p>\n            <li>Tuesday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Good</p>\n            <li>Wednesday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Bad</p>\n            <li>Thursday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Good</p>\n            <li>Friday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Bad</p>\n            <li>Saturday</li>\n            <div style="clear: both;"></div>\n  \n          </ul>\n          \n        </ion-col>\n      </ion-row>\n    </ion-grid>\n  \n  \n  \n  \n  </ion-content>'/*ion-inline-end:"C:\Users\Choppah\PVT15\StarGaze\src\pages\jarva\jarva.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
-    ], JarvaPage);
-    return JarvaPage;
-}());
-
-//# sourceMappingURL=jarva.js.map
-
-/***/ }),
-
-/***/ 103:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MenuPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the MenuPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var MenuPage = /** @class */ (function () {
-    function MenuPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    MenuPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad MenuPage');
-    };
-    MenuPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-menu',template:/*ion-inline-start:"C:\Users\Choppah\PVT15\StarGaze\src\pages\menu\menu.html"*/'\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>Menu</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n<ion-content padding class="menu">\n\n    <img src="../../assets/imgs/image.png">\n\n   \n\n\n\n    <ion-grid>\n\n        <ion-row>\n\n          <ion-col width-100>\n\n             <div class="menuButton" >\n\n               <ion-item class="ion-toggle">\n\n                 <ion-label>Push notifications </ion-label>\n\n                 <ion-toggle>disabled checked="false"</ion-toggle>\n\n               </ion-item>\n\n              <button ion-button full round color="textColor">Settings</button>\n\n              <button ion-button full round color="textColor">Facebook Event</button>\n\n              <button ion-button full round color="textColor">Help</button>\n\n              <button ion-button full round color="textColor">Log out</button>\n\n            </div>\n\n            </ion-col>\n\n          </ion-row>\n\n         </ion-grid>  \n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Choppah\PVT15\StarGaze\src\pages\menu\menu.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
-    ], MenuPage);
-    return MenuPage;
-}());
-
-//# sourceMappingURL=menu.js.map
-
-/***/ }),
-
-/***/ 104:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -226,7 +136,7 @@ var LogInPage = /** @class */ (function () {
     };
     LogInPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-log-in',template:/*ion-inline-start:"C:\Users\Choppah\PVT15\StarGaze\src\pages\log-in\log-in.html"*/'<!--\n\n  Generated template for the LogInPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title></ion-title>\n\n   \n\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content padding class="log-in">\n\n    <img src="../../assets/imgs/image.png">\n\n<ion-grid>\n\n<ion-row>\n\n  <ion-col width-100>\n\n     <div class="logga" >\n\n      <button ion-button full round (click)="loginWithFacebook()">Log in with Facebook</button>\n\n      <button ion-button full round color="danger">Log in with Google</button>\n\n    </div>\n\n    <ion-card *ngIf="userData">\n\n      <ion-card-header>{{ userData.username }}</ion-card-header>\n\n     <img [src]="userData.picture">\n\n     <ion-card-content>\n\n       <p>First Name: {{ userData.first_name }}</p>\n\n     </ion-card-content>\n\n    </ion-card>\n\n    </ion-col>\n\n</ion-row>\n\n </ion-grid>  \n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Choppah\PVT15\StarGaze\src\pages\log-in\log-in.html"*/,
+            selector: 'page-log-in',template:/*ion-inline-start:"/Users/nadia/Documents/GitHub/StarGaze/src/pages/log-in/log-in.html"*/'<!--\n  Generated template for the LogInPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title></ion-title>\n   \n  </ion-navbar>\n</ion-header>\n<ion-content padding class="log-in">\n    <img src="../../assets/imgs/image.png">\n<ion-grid>\n<ion-row>\n  <ion-col width-100>\n     <div class="logga" >\n      <button ion-button full round (click)="loginWithFacebook()">Log in with Facebook</button>\n      <button ion-button full round color="danger">Log in with Google</button>\n    </div>\n    <ion-card *ngIf="userData">\n      <ion-card-header>{{ userData.username }}</ion-card-header>\n     <img [src]="userData.picture">\n     <ion-card-content>\n       <p>First Name: {{ userData.first_name }}</p>\n     </ion-card-content>\n    </ion-card>\n    </ion-col>\n</ion-row>\n </ion-grid>  \n\n</ion-content>\n'/*ion-inline-end:"/Users/nadia/Documents/GitHub/StarGaze/src/pages/log-in/log-in.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_facebook__["a" /* Facebook */]])
     ], LogInPage);
@@ -237,7 +147,7 @@ var LogInPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 105:
+/***/ 103:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -271,7 +181,7 @@ var NackaPage = /** @class */ (function () {
     };
     NackaPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-nacka',template:/*ion-inline-start:"C:\Users\Choppah\PVT15\StarGaze\src\pages\nacka\nacka.html"*/'<ion-header>\n\n    <ion-navbar>\n      <ion-title>Places</ion-title>\n    </ion-navbar>\n  \n  </ion-header>\n  \n  \n  <ion-content padding class="places">\n      <ion-img width="40" height="40" src="../../assets/imgs/image2.png"></ion-img>\n    <ion-grid>\n      <ion-row>\n        <ion-col width-50 offset-25>\n          <div text-center>\n            <h1 strong> Nackareservatet tonight</h1>\n          </div>\n          <div text-center>\n            <h5 strong> Status: Good </h5>\n          </div>\n          \n    \n        <ion-scroll class="scroll" style="width:100%; height:160px">\n         <div class="cards">\n          <ion-card>\n            <ion-card-header>\n              Light\n            </ion-card-header>\n            <ion-card-content>\n              30%\n            </ion-card-content>\n          </ion-card>\n          <ion-card>\n              <ion-card-header>\n                Temp\n              </ion-card-header>\n              <ion-card-content>\n                11\n              </ion-card-content>\n            </ion-card>\n           <ion-card>\n               <ion-card-header>\n                Visibility\n              </ion-card-header>\n              <ion-card-content>\n                3 km\n              </ion-card-content>\n            </ion-card>\n          </div>\n         </ion-scroll>\n         \n        </ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col width-50>\n          <h6 strong> Forecast </h6>\n          <ul>\n            <p class="alignright">Good</p>\n            <li>Tuesday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Good</p>\n            <li>Wednesday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Bad</p>\n            <li>Thursday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Good</p>\n            <li>Friday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Bad</p>\n            <li>Saturday</li>\n            <div style="clear: both;"></div>\n  \n          </ul>\n          \n        </ion-col>\n      </ion-row>\n    </ion-grid>\n  \n  \n  \n  \n  </ion-content>'/*ion-inline-end:"C:\Users\Choppah\PVT15\StarGaze\src\pages\nacka\nacka.html"*/,
+            selector: 'page-nacka',template:/*ion-inline-start:"/Users/nadia/Documents/GitHub/StarGaze/src/pages/nacka/nacka.html"*/'<ion-header>\n\n    <ion-navbar>\n      <ion-title>Places</ion-title>\n    </ion-navbar>\n  \n  </ion-header>\n  \n  \n  <ion-content padding class="places">\n      <ion-img width="40" height="40" src="../../assets/imgs/image2.png"></ion-img>\n    <ion-grid>\n      <ion-row>\n        <ion-col width-50 offset-25>\n          <div text-center>\n            <h1 strong> Nackareservatet tonight</h1>\n          </div>\n          <div text-center>\n            <h5 strong> Status: Good </h5>\n          </div>\n          \n    \n        <ion-scroll class="scroll" style="width:100%; height:160px">\n         <div class="cards">\n          <ion-card>\n            <ion-card-header>\n              Light\n            </ion-card-header>\n            <ion-card-content>\n              30%\n            </ion-card-content>\n          </ion-card>\n          <ion-card>\n              <ion-card-header>\n                Temp\n              </ion-card-header>\n              <ion-card-content>\n                11\n              </ion-card-content>\n            </ion-card>\n           <ion-card>\n               <ion-card-header>\n                Visibility\n              </ion-card-header>\n              <ion-card-content>\n                3 km\n              </ion-card-content>\n            </ion-card>\n          </div>\n         </ion-scroll>\n         \n        </ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col width-50>\n          <h6 strong> Forecast </h6>\n          <ul>\n            <p class="alignright">Good</p>\n            <li>Tuesday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Good</p>\n            <li>Wednesday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Bad</p>\n            <li>Thursday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Good</p>\n            <li>Friday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Bad</p>\n            <li>Saturday</li>\n            <div style="clear: both;"></div>\n  \n          </ul>\n          \n        </ion-col>\n      </ion-row>\n    </ion-grid>\n  \n  \n  \n  \n  </ion-content>'/*ion-inline-end:"/Users/nadia/Documents/GitHub/StarGaze/src/pages/nacka/nacka.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
     ], NackaPage);
@@ -279,6 +189,96 @@ var NackaPage = /** @class */ (function () {
 }());
 
 //# sourceMappingURL=nacka.js.map
+
+/***/ }),
+
+/***/ 104:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return JarvaPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the JarvaPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var JarvaPage = /** @class */ (function () {
+    function JarvaPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    JarvaPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad JarvaPage');
+    };
+    JarvaPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-jarva',template:/*ion-inline-start:"/Users/nadia/Documents/GitHub/StarGaze/src/pages/jarva/jarva.html"*/'<ion-header>\n\n    <ion-navbar>\n      <ion-title>Places</ion-title>\n    </ion-navbar>\n  \n  </ion-header>\n  \n  \n  <ion-content padding class="places">\n      <ion-img width="40" height="40" src="../../assets/imgs/image2.png"></ion-img>\n    <ion-grid>\n      <ion-row>\n        <ion-col width-50 offset-25>\n          <div text-center>\n            <h1 strong> Järvafältet today</h1>\n          </div>\n          <div text-center>\n            <h5 strong> Status: Good </h5>\n          </div>\n          \n    \n        <ion-scroll class="scroll" style="width:100%; height:160px">\n         <div class="cards">\n          <ion-card>\n            <ion-card-header>\n              Light\n            </ion-card-header>\n            <ion-card-content>\n              30%\n            </ion-card-content>\n          </ion-card>\n          <ion-card>\n              <ion-card-header>\n                Temp\n              </ion-card-header>\n              <ion-card-content>\n                11\n              </ion-card-content>\n            </ion-card>\n           <ion-card>\n               <ion-card-header>\n                Visibility\n              </ion-card-header>\n              <ion-card-content>\n                3 km\n              </ion-card-content>\n            </ion-card>\n          </div>\n         </ion-scroll>\n         \n        </ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col width-50>\n          <h6 strong> Forecast </h6>\n          <ul>\n            <p class="alignright">Good</p>\n            <li>Tuesday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Good</p>\n            <li>Wednesday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Bad</p>\n            <li>Thursday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Good</p>\n            <li>Friday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Bad</p>\n            <li>Saturday</li>\n            <div style="clear: both;"></div>\n  \n          </ul>\n          \n        </ion-col>\n      </ion-row>\n    </ion-grid>\n  \n  \n  \n  \n  </ion-content>'/*ion-inline-end:"/Users/nadia/Documents/GitHub/StarGaze/src/pages/jarva/jarva.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
+    ], JarvaPage);
+    return JarvaPage;
+}());
+
+//# sourceMappingURL=jarva.js.map
+
+/***/ }),
+
+/***/ 105:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MenuPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the MenuPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var MenuPage = /** @class */ (function () {
+    function MenuPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    MenuPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad MenuPage');
+    };
+    MenuPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-menu',template:/*ion-inline-start:"/Users/nadia/Documents/GitHub/StarGaze/src/pages/menu/menu.html"*/'\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Menu</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content padding class="menu">\n    <img src="../../assets/imgs/image.png">\n   \n\n    <ion-grid>\n        <ion-row>\n          <ion-col width-100>\n             <div class="menuButton" >\n               <ion-item class="ion-toggle">\n                 <ion-label>Push notifications </ion-label>\n                 <ion-toggle>disabled checked="false"</ion-toggle>\n               </ion-item>\n              <button ion-button full round color="textColor">Settings</button>\n              <button ion-button full round color="textColor">Facebook Event</button>\n              <button ion-button full round color="textColor">Help</button>\n              <button ion-button full round color="textColor">Log out</button>\n            </div>\n            </ion-col>\n          </ion-row>\n         </ion-grid>  \n</ion-content>\n'/*ion-inline-end:"/Users/nadia/Documents/GitHub/StarGaze/src/pages/menu/menu.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
+    ], MenuPage);
+    return MenuPage;
+}());
+
+//# sourceMappingURL=menu.js.map
 
 /***/ }),
 
@@ -290,8 +290,8 @@ var NackaPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__gardet_gardet__ = __webpack_require__(100);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__nacka_nacka__ = __webpack_require__(105);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__jarva_jarva__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__nacka_nacka__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__jarva_jarva__ = __webpack_require__(104);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__grimsta_grimsta__ = __webpack_require__(101);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__tyresta_tyresta__ = __webpack_require__(107);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -335,7 +335,7 @@ var TodayPage = /** @class */ (function () {
     };
     TodayPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-today',template:/*ion-inline-start:"C:\Users\Choppah\PVT15\StarGaze\src\pages\today\today.html"*/'<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>Status for today</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n\n\n<ion-content padding class= "today">\n\n <ion-img width="40" height="40" src="../../assets/imgs/image2.png"></ion-img>\n\n  <ion-grid>\n\n    <ion-row>\n\n      <ion-col width-50 offset-25>\n\n        <div text-center> <h1 strong> Stockholm today </h1> </div> \n\n        <div text-center> <h5 strong> Status: Good </h5> </div>\n\n        <ul>\n\n          <li>Light: 30 %</li> \n\n          <li>Temp: 11° </li>\n\n          <li>Visibility: 3 km</li>\n\n          <li></li>\n\n          <li></li><li></li>\n\n          <li></li><li></li>\n\n          <li></li>\n\n      </ul>\n\n      </ion-col>\n\n    </ion-row>\n\n    <ion-row>\n\n      <ion-col width-50>\n\n        <h6 strong> Show forecast for... </h6> \n\n          <ul>\n\n            <li><a href="#" (click)="GardetPlaces()">Gärdet</a></li> \n\n            <li><a href="#" (click)="TyrestaPlaces()">Tyresta Naturpark</a></li>\n\n            <li><a href="#" (click)="NackaPlaces()">Nackareservatet</a></li>\n\n            <li><a href="#" (click)="GrimstaPlaces()">Grimsta</a></li>\n\n            <li><a href="#" (click)="JarvaPlaces()"> Järvafältet</a></li>\n\n          </ul>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Choppah\PVT15\StarGaze\src\pages\today\today.html"*/,
+            selector: 'page-today',template:/*ion-inline-start:"/Users/nadia/Documents/GitHub/StarGaze/src/pages/today/today.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-title>Status for today</ion-title>\n  </ion-navbar>\n</ion-header>\n\n\n<ion-content padding class= "today">\n <ion-img width="40" height="40" src="../../assets/imgs/image2.png"></ion-img>\n  <ion-grid>\n    <ion-row>\n      <ion-col width-50 offset-25>\n        <div text-center> <h1 strong> Stockholm today </h1> </div> \n        <div text-center> <h5 strong> Status: Good </h5> </div>\n        <ul>\n          <li>Light: 30 %</li> \n          <li>Temp: 11° </li>\n          <li>Visibility: 3 km</li>\n          <li></li>\n          <li></li><li></li>\n          <li></li><li></li>\n          <li></li>\n      </ul>\n      </ion-col>\n    </ion-row>\n    <ion-row>\n      <ion-col width-50>\n        <h6 strong> Show forecast for... </h6> \n          <ul>\n            <li><a href="#" (click)="GardetPlaces()">Gärdet</a></li> \n            <li><a href="#" (click)="TyrestaPlaces()">Tyresta Naturpark</a></li>\n            <li><a href="#" (click)="NackaPlaces()">Nackareservatet</a></li>\n            <li><a href="#" (click)="GrimstaPlaces()">Grimsta</a></li>\n            <li><a href="#" (click)="JarvaPlaces()"> Järvafältet</a></li>\n          </ul>\n      </ion-col>\n    </ion-row>\n  </ion-grid>\n\n\n</ion-content>\n'/*ion-inline-end:"/Users/nadia/Documents/GitHub/StarGaze/src/pages/today/today.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
     ], TodayPage);
@@ -380,7 +380,7 @@ var TyrestaPage = /** @class */ (function () {
     };
     TyrestaPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-tyresta',template:/*ion-inline-start:"C:\Users\Choppah\PVT15\StarGaze\src\pages\tyresta\tyresta.html"*/'<ion-header>\n\n    <ion-navbar>\n      <ion-title>Places</ion-title>\n    </ion-navbar>\n  \n  </ion-header>\n  \n  \n  <ion-content padding class="places">\n      <ion-img width="40" height="40" src="../../assets/imgs/image2.png"></ion-img>\n    <ion-grid>\n      <ion-row>\n        <ion-col width-50 offset-25>\n          <div text-center>\n            <h1 strong> Tyresta Naturpark tonight</h1>\n          </div>\n          <div text-center>\n            <h5 strong> Status: Good </h5>\n          </div>\n          \n    \n        <ion-scroll class="scroll" style="width:100%; height:160px">\n         <div class="cards">\n          <ion-card>\n            <ion-card-header>\n              Light\n            </ion-card-header>\n            <ion-card-content>\n              30%\n            </ion-card-content>\n          </ion-card>\n          <ion-card>\n              <ion-card-header>\n                Temp\n              </ion-card-header>\n              <ion-card-content>\n                11\n              </ion-card-content>\n            </ion-card>\n           <ion-card>\n               <ion-card-header>\n                Visibility\n              </ion-card-header>\n              <ion-card-content>\n                3 km\n              </ion-card-content>\n            </ion-card>\n          </div>\n         </ion-scroll>\n         \n        </ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col width-50>\n          <h6 strong> Forecast </h6>\n          <ul>\n            <p class="alignright">Good</p>\n            <li>Tuesday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Good</p>\n            <li>Wednesday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Bad</p>\n            <li>Thursday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Good</p>\n            <li>Friday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Bad</p>\n            <li>Saturday</li>\n            <div style="clear: both;"></div>\n  \n          </ul>\n          \n        </ion-col>\n      </ion-row>\n    </ion-grid>\n  \n  \n  \n  \n  </ion-content>'/*ion-inline-end:"C:\Users\Choppah\PVT15\StarGaze\src\pages\tyresta\tyresta.html"*/,
+            selector: 'page-tyresta',template:/*ion-inline-start:"/Users/nadia/Documents/GitHub/StarGaze/src/pages/tyresta/tyresta.html"*/'<ion-header>\n\n    <ion-navbar>\n      <ion-title>Places</ion-title>\n    </ion-navbar>\n  \n  </ion-header>\n  \n  \n  <ion-content padding class="places">\n      <ion-img width="40" height="40" src="../../assets/imgs/image2.png"></ion-img>\n    <ion-grid>\n      <ion-row>\n        <ion-col width-50 offset-25>\n          <div text-center>\n            <h1 strong> Tyresta Naturpark tonight</h1>\n          </div>\n          <div text-center>\n            <h5 strong> Status: Good </h5>\n          </div>\n          \n    \n        <ion-scroll class="scroll" style="width:100%; height:160px">\n         <div class="cards">\n          <ion-card>\n            <ion-card-header>\n              Light\n            </ion-card-header>\n            <ion-card-content>\n              30%\n            </ion-card-content>\n          </ion-card>\n          <ion-card>\n              <ion-card-header>\n                Temp\n              </ion-card-header>\n              <ion-card-content>\n                11\n              </ion-card-content>\n            </ion-card>\n           <ion-card>\n               <ion-card-header>\n                Visibility\n              </ion-card-header>\n              <ion-card-content>\n                3 km\n              </ion-card-content>\n            </ion-card>\n          </div>\n         </ion-scroll>\n         \n        </ion-col>\n      </ion-row>\n      <ion-row>\n        <ion-col width-50>\n          <h6 strong> Forecast </h6>\n          <ul>\n            <p class="alignright">Good</p>\n            <li>Tuesday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Good</p>\n            <li>Wednesday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Bad</p>\n            <li>Thursday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Good</p>\n            <li>Friday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Bad</p>\n            <li>Saturday</li>\n            <div style="clear: both;"></div>\n  \n          </ul>\n          \n        </ion-col>\n      </ion-row>\n    </ion-grid>\n  \n  \n  \n  \n  </ion-content>'/*ion-inline-end:"/Users/nadia/Documents/GitHub/StarGaze/src/pages/tyresta/tyresta.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
     ], TyrestaPage);
@@ -421,19 +421,19 @@ var map = {
 		8
 	],
 	"../pages/jarva/jarva.module": [
-		284,
+		286,
 		7
 	],
 	"../pages/log-in/log-in.module": [
-		286,
+		284,
 		6
 	],
 	"../pages/menu/menu.module": [
-		285,
+		287,
 		5
 	],
 	"../pages/nacka/nacka.module": [
-		287,
+		285,
 		4
 	],
 	"../pages/places/places.module": [
@@ -475,9 +475,9 @@ module.exports = webpackAsyncContext;
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TabsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__log_in_log_in__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__log_in_log_in__ = __webpack_require__(102);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__today_today__ = __webpack_require__(106);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__menu_menu__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__menu_menu__ = __webpack_require__(105);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__places_places__ = __webpack_require__(203);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -501,7 +501,7 @@ var TabsPage = /** @class */ (function () {
         this.tab4Root = __WEBPACK_IMPORTED_MODULE_4__places_places__["a" /* PlacesPage */];
     }
     TabsPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Choppah\PVT15\StarGaze\src\pages\tabs\tabs.html"*/'<ion-tabs>\n\n  <ion-tab [root]="tab1Root" tabTitle="Log in" tabIcon="ios-log-in"></ion-tab>\n\n  <ion-tab [root]="tab2Root" tabTitle="Today" tabIcon="star-outline"></ion-tab>\n\n  <ion-tab [root]="tab3Root" tabTitle="Menu" tabIcon="menu"></ion-tab>\n\n  \n\n</ion-tabs>\n\n'/*ion-inline-end:"C:\Users\Choppah\PVT15\StarGaze\src\pages\tabs\tabs.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/Users/nadia/Documents/GitHub/StarGaze/src/pages/tabs/tabs.html"*/'<ion-tabs>\n  <ion-tab [root]="tab1Root" tabTitle="Log in" tabIcon="ios-log-in"></ion-tab>\n  <ion-tab [root]="tab2Root" tabTitle="Today" tabIcon="star-outline"></ion-tab>\n  <ion-tab [root]="tab3Root" tabTitle="Menu" tabIcon="menu"></ion-tab>\n  \n</ion-tabs>\n'/*ion-inline-end:"/Users/nadia/Documents/GitHub/StarGaze/src/pages/tabs/tabs.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], TabsPage);
@@ -546,7 +546,7 @@ var PlacesPage = /** @class */ (function () {
     };
     PlacesPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-places',template:/*ion-inline-start:"C:\Users\Choppah\PVT15\StarGaze\src\pages\places\places.html"*/'<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>Places</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding class="places">\n\n    <ion-img width="40" height="40" src="../../assets/imgs/image2.png"></ion-img>\n\n  <ion-grid>\n\n    <ion-row>\n\n      <ion-col width-50 offset-25>\n\n        <div text-center>\n\n          <h1 strong> Gärdet today</h1>\n\n        </div>\n\n        <div text-center>\n\n          <h5 strong> Status: Good </h5>\n\n        </div>\n\n        \n\n  \n\n      <ion-scroll class="scroll" style="width:100%; height:160px">\n\n       <div class="cards">\n\n        <ion-card>\n\n          <ion-card-header>\n\n            Light\n\n          </ion-card-header>\n\n          <ion-card-content>\n\n            30%\n\n          </ion-card-content>\n\n        </ion-card>\n\n        <ion-card>\n\n            <ion-card-header>\n\n              Temp\n\n            </ion-card-header>\n\n            <ion-card-content>\n\n              11\n\n            </ion-card-content>\n\n          </ion-card>\n\n         <ion-card>\n\n             <ion-card-header>\n\n              Visibility\n\n            </ion-card-header>\n\n            <ion-card-content>\n\n              3 km\n\n            </ion-card-content>\n\n          </ion-card>\n\n        </div>\n\n       </ion-scroll>\n\n       \n\n      </ion-col>\n\n    </ion-row>\n\n    <ion-row>\n\n      <ion-col width-50>\n\n        <h6 strong> Forecast </h6>\n\n        <ul>\n\n          <p class="alignright">Good</p>\n\n          <li>Tuesday</li>\n\n          <div style="clear: both;"></div>\n\n          <p class="alignright">Good</p>\n\n          <li>Wednesday</li>\n\n          <div style="clear: both;"></div>\n\n          <p class="alignright">Bad</p>\n\n          <li>Thursday</li>\n\n          <div style="clear: both;"></div>\n\n          <p class="alignright">Good</p>\n\n          <li>Friday</li>\n\n          <div style="clear: both;"></div>\n\n          <p class="alignright">Bad</p>\n\n          <li>Saturday</li>\n\n          <div style="clear: both;"></div>\n\n\n\n        </ul>\n\n        \n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n\n\n\n\n\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\Choppah\PVT15\StarGaze\src\pages\places\places.html"*/,
+            selector: 'page-places',template:/*ion-inline-start:"/Users/nadia/Documents/GitHub/StarGaze/src/pages/places/places.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-title>Places</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding class="places">\n    <ion-img width="40" height="40" src="../../assets/imgs/image2.png"></ion-img>\n  <ion-grid>\n    <ion-row>\n      <ion-col width-50 offset-25>\n        <div text-center>\n          <h1 strong> Gärdet today</h1>\n        </div>\n        <div text-center>\n          <h5 strong> Status: Good </h5>\n        </div>\n        \n  \n      <ion-scroll class="scroll" style="width:100%; height:160px">\n       <div class="cards">\n        <ion-card>\n          <ion-card-header>\n            Light\n          </ion-card-header>\n          <ion-card-content>\n            30%\n          </ion-card-content>\n        </ion-card>\n        <ion-card>\n            <ion-card-header>\n              Temp\n            </ion-card-header>\n            <ion-card-content>\n              11\n            </ion-card-content>\n          </ion-card>\n         <ion-card>\n             <ion-card-header>\n              Visibility\n            </ion-card-header>\n            <ion-card-content>\n              3 km\n            </ion-card-content>\n          </ion-card>\n        </div>\n       </ion-scroll>\n       \n      </ion-col>\n    </ion-row>\n    <ion-row>\n      <ion-col width-50>\n        <h6 strong> Forecast </h6>\n        <ul>\n          <p class="alignright">Good</p>\n          <li>Tuesday</li>\n          <div style="clear: both;"></div>\n          <p class="alignright">Good</p>\n          <li>Wednesday</li>\n          <div style="clear: both;"></div>\n          <p class="alignright">Bad</p>\n          <li>Thursday</li>\n          <div style="clear: both;"></div>\n          <p class="alignright">Good</p>\n          <li>Friday</li>\n          <div style="clear: both;"></div>\n          <p class="alignright">Bad</p>\n          <li>Saturday</li>\n          <div style="clear: both;"></div>\n\n        </ul>\n        \n      </ion-col>\n    </ion-row>\n  </ion-grid>\n\n\n\n\n</ion-content>'/*ion-inline-end:"/Users/nadia/Documents/GitHub/StarGaze/src/pages/places/places.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
     ], PlacesPage);
@@ -584,12 +584,12 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_contact_contact__ = __webpack_require__(280);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_home_home__ = __webpack_require__(281);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_tabs_tabs__ = __webpack_require__(202);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_log_in_log_in__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_log_in_log_in__ = __webpack_require__(102);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_today_today__ = __webpack_require__(106);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_menu_menu__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_menu_menu__ = __webpack_require__(105);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_gardet_gardet__ = __webpack_require__(100);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_jarva_jarva__ = __webpack_require__(102);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_nacka_nacka__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_jarva_jarva__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_nacka_nacka__ = __webpack_require__(103);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_grimsta_grimsta__ = __webpack_require__(101);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_tyresta_tyresta__ = __webpack_require__(107);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__ionic_native_facebook__ = __webpack_require__(159);
@@ -646,10 +646,10 @@ var AppModule = /** @class */ (function () {
                     links: [
                         { loadChildren: '../pages/gardet/gardet.module#GardetPageModule', name: 'GardetPage', segment: 'gardet', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/grimsta/grimsta.module#GrimstaPageModule', name: 'GrimstaPage', segment: 'grimsta', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/jarva/jarva.module#JarvaPageModule', name: 'JarvaPage', segment: 'jarva', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/menu/menu.module#MenuPageModule', name: 'MenuPage', segment: 'menu', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/log-in/log-in.module#LogInPageModule', name: 'LogInPage', segment: 'log-in', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/nacka/nacka.module#NackaPageModule', name: 'NackaPage', segment: 'nacka', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/jarva/jarva.module#JarvaPageModule', name: 'JarvaPage', segment: 'jarva', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/menu/menu.module#MenuPageModule', name: 'MenuPage', segment: 'menu', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/places/places.module#PlacesPageModule', name: 'PlacesPage', segment: 'places', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/settings/settings.module#SettingsPageModule', name: 'SettingsPage', segment: 'settings', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/today/today.module#TodayPageModule', name: 'TodayPage', segment: 'today', priority: 'low', defaultHistory: [] },
@@ -723,7 +723,7 @@ var MyApp = /** @class */ (function () {
         });
     }
     MyApp = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Choppah\PVT15\StarGaze\src\app\app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n\n'/*ion-inline-end:"C:\Users\Choppah\PVT15\StarGaze\src\app\app.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/Users/nadia/Documents/GitHub/StarGaze/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/Users/nadia/Documents/GitHub/StarGaze/src/app/app.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
     ], MyApp);
@@ -758,7 +758,7 @@ var AboutPage = /** @class */ (function () {
     }
     AboutPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-about',template:/*ion-inline-start:"C:\Users\Choppah\PVT15\StarGaze\src\pages\about\about.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title>\n\n      About\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Choppah\PVT15\StarGaze\src\pages\about\about.html"*/
+            selector: 'page-about',template:/*ion-inline-start:"/Users/nadia/Documents/GitHub/StarGaze/src/pages/about/about.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      About\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"/Users/nadia/Documents/GitHub/StarGaze/src/pages/about/about.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
     ], AboutPage);
@@ -793,7 +793,7 @@ var ContactPage = /** @class */ (function () {
     }
     ContactPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-contact',template:/*ion-inline-start:"C:\Users\Choppah\PVT15\StarGaze\src\pages\contact\contact.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title>\n\n      Contact\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n  <ion-list>\n\n    <ion-list-header>Follow us on Twitter</ion-list-header>\n\n    <ion-item>\n\n      <ion-icon name="ionic" item-start></ion-icon>\n\n      @ionicframework\n\n    </ion-item>\n\n  </ion-list>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Choppah\PVT15\StarGaze\src\pages\contact\contact.html"*/
+            selector: 'page-contact',template:/*ion-inline-start:"/Users/nadia/Documents/GitHub/StarGaze/src/pages/contact/contact.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Contact\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-list>\n    <ion-list-header>Follow us on Twitter</ion-list-header>\n    <ion-item>\n      <ion-icon name="ionic" item-start></ion-icon>\n      @ionicframework\n    </ion-item>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"/Users/nadia/Documents/GitHub/StarGaze/src/pages/contact/contact.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
     ], ContactPage);
@@ -828,7 +828,7 @@ var HomePage = /** @class */ (function () {
     }
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"C:\Users\Choppah\PVT15\StarGaze\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title>Home</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n  <h2>Welcome to Ionic!</h2>\n\n  <p>\n\n    This starter project comes with simple tabs-based layout for apps\n\n    that are going to primarily use a Tabbed UI.\n\n  </p>\n\n  <p>\n\n    Take a look at the <code>src/pages/</code> directory to add or change tabs,\n\n    update any existing page or create new pages.\n\n  </p>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Choppah\PVT15\StarGaze\src\pages\home\home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"/Users/nadia/Documents/GitHub/StarGaze/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>Home</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h2>Welcome to Ionic!</h2>\n  <p>\n    This starter project comes with simple tabs-based layout for apps\n    that are going to primarily use a Tabbed UI.\n  </p>\n  <p>\n    Take a look at the <code>src/pages/</code> directory to add or change tabs,\n    update any existing page or create new pages.\n  </p>\n</ion-content>\n'/*ion-inline-end:"/Users/nadia/Documents/GitHub/StarGaze/src/pages/home/home.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
     ], HomePage);
