@@ -6,26 +6,49 @@
 </ion-header>
 
 
-<ion-content padding class= "today">
- <ion-img width="40" height="40" src="../../assets/imgs/image2.png"></ion-img>
-  <ion-grid>
+<ion-content scroll="true" padding class="places">
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <div text-center>
+            <h1 strong> Stockholm tonight</h1>
+          </div>
+          <div class="status" text-center>
+            <h5 strong>Okey </h5>
+            <p>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+            </p>
+            
+          </div>
+        </ion-col>
+      </ion-row>
+    
+        <ion-row class="weather-factors" text-center>
+          <ion-col col-4>
+            <ion-icon name="sunny"></ion-icon>
+           <!-- <p>Light</p> -->
+            <p>30%</p>  
+          </ion-col>
+
+          <ion-col class="thermo-col" col-4>
+            <ion-icon name="thermometer"></ion-icon>
+           <!-- <p>Temp</p> -->
+            <p>11&deg;</p>  
+          </ion-col>
+
+          <ion-col col-4>
+            <ion-icon name="cloud"></ion-icon>
+            <!-- <p>Cloudiness</p> -->
+            <p>3 km</p>  
+          </ion-col>
+        </ion-row>
+          
+    
     <ion-row>
-      <ion-col width-50 offset-25>
-        <div text-center> <h1 strong> Stockholm today </h1> </div> 
-        <div text-center> <h5 strong> Status: Good </h5> </div>
-        <ul>
-          <li>Light: 30 %</li> 
-          <li>Temp: 11° </li>
-          <li>Visibility: 3 km</li>
-          <li></li>
-          <li></li><li></li>
-          <li></li><li></li>
-          <li></li>
-      </ul>
-      </ion-col>
-    </ion-row>
-    <ion-row>
-      <ion-col width-50>
+      <ion-col>
         <h6 strong> Show forecast for... </h6> 
           <ul>
             <li><a href="#" (click)="GardetPlaces()">Gärdet</a></li> 
