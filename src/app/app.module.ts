@@ -2,6 +2,7 @@ import { NgModule, ErrorHandler } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
+import firebase from 'firebase';
 
 import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
@@ -21,6 +22,16 @@ import { Facebook } from '@ionic-native/facebook';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+
+export const firebaseConfig={
+  apiKey: "AIzaSyBtzmdRYHLeBrLt8MGdti9G0A1kXIV_xg4",
+  authDomain: "stargaze-177ce.firebaseapp.com",
+  databaseURL: "https://stargaze-177ce.firebaseio.com",
+  projectId: "stargaze-177ce",
+  storageBucket: "stargaze-177ce.appspot.com",
+  messagingSenderId: "931550022499"
+};
+firebase.initializeApp(firebaseConfig);
 
 @NgModule({
   declarations: [
