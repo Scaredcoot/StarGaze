@@ -15,6 +15,7 @@ import { JarvaPage} from '../pages/jarva/jarva';
 import { NackaPage} from '../pages/nacka/nacka';
 import { GrimstaPage} from '../pages/grimsta/grimsta';
 import { TyrestaPage} from '../pages/tyresta/tyresta';
+import { SettingsPage } from '../pages/settings/settings';
 
 import { Facebook } from '@ionic-native/facebook';
 
@@ -35,7 +36,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     NackaPage,
     JarvaPage,
     TyrestaPage,
-    GrimstaPage
+    GrimstaPage,
+    SettingsPage
  
   ],
   imports: [
@@ -56,7 +58,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     NackaPage,
     JarvaPage,
     TyrestaPage,
-    GrimstaPage
+    GrimstaPage,
+    SettingsPage
   ],
   providers: [
     StatusBar,

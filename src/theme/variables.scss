@@ -18,13 +18,14 @@ $colors: (
   midnight:   #380b61,
   textColor:  #df7401,
   textBlack:  black,
-  toolbarColor: #240B3B,
+  toolbarColor: #290256,
+  topbarColor: #050124,
   tabColor: rgba(251, 245, 253, 0.133)
 );
 
 //-ios för iPhone & -md för Android
 //Top toolbar
-$toolbar-ios-background:color($colors, toolbarColor);
+$toolbar-ios-background:color($colors, topbarColor);
 
 //Tabs
 $tabs-ios-background:color($colors, toolbarColor);

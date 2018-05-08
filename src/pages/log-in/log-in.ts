@@ -25,6 +25,7 @@ export class LogInPage {
         this.userData = {email: profile['email'], first_name: profile['first_name'], picture: profile['picture_large']['data']['url'], username: profile['name']};
       })
     })
+    
 
   }
 

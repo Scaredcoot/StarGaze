@@ -36,51 +36,6 @@ var SettingsPageModule = /** @class */ (function () {
 
 //# sourceMappingURL=settings.module.js.map
 
-/***/ }),
-
-/***/ 292:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SettingsPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the SettingsPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var SettingsPage = /** @class */ (function () {
-    function SettingsPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    SettingsPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad SettingsPage');
-    };
-    SettingsPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-settings',template:/*ion-inline-start:"/Users/nadia/Documents/GitHub/StarGaze/src/pages/settings/settings.html"*/'<!--\n  Generated template for the SettingsPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Settings</ion-title>\n  </ion-navbar>\n\n  <ion-item class="ion-toggle">\n\n    <ion-item> </ion-item>\n      <ion-label full color="textColor">Push notifications </ion-label>\n      <ion-toggle>disabled checked="false"</ion-toggle>\n     </ion-item>\n\n      </ion-header>\n \n      \n\n\n\n'/*ion-inline-end:"/Users/nadia/Documents/GitHub/StarGaze/src/pages/settings/settings.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
-    ], SettingsPage);
-    return SettingsPage;
-}());
-
-//# sourceMappingURL=settings.js.map
-
 /***/ })
 
 });

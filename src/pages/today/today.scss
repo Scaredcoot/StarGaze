@@ -1,23 +1,49 @@
 page-today {
 
+    
     ul {
         list-style: none;
         padding-left: 10px;
 
         li {
             padding-top: 10px;
+
         }
+        
+        p {
+            margin-bottom: -50%;
+        }
+        div {
+            margin-bottom: 0%
+        }
+       
     }
 
     a {
-        color: color($colors, textColor);
+        color: color($colors, light);
         text-decoration: none;
         
         &:hover {
-            color: color($colors, light);
+            color: color($colors, textColor);
         }
     }
-
+    .thermo-col {
+        border-left: 1px solid rgba(238, 238, 238, 0.2);
+        border-right: 1px solid rgba(238, 238, 238, 0.2);
+    }
+    .divider {
+        background: rgba(238, 238, 238, 0.2);
+    }
+    .weather-factors {
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    .status {
+        margin-top: 25px;
+    }
+    .forecast {
+        color: color($colors, light);
+    }
   
 
 }

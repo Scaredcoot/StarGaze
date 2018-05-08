@@ -8,20 +8,17 @@
 </ion-header>
 
 <ion-content padding class="menu">
-    <img src="../../assets/imgs/image.png">
-   
 
     <ion-grid>
         <ion-row>
           <ion-col width-100>
-             <div class="menuButton" >
-               <ion-item class="ion-toggle">
-                 <ion-label>Push notifications </ion-label>
-                 <ion-toggle>disabled checked="false"</ion-toggle>
-               </ion-item>
-              <button ion-button full round color="textColor">Settings</button>
+
+           <img src="../../assets/imgs/image.png" class= "loggis">
+            
+           <div class="menuButton" >
+             <button ion-button full round color="textColor"(click)="openSettingPage()">Settings</button>
               <button ion-button full round color="textColor">Facebook Event</button>
-              <button ion-button full round color="textColor">Help</button>
+              <button ion-button full round color="textColor"(click)="openAboutPage()">About</button>
               <button ion-button full round color="textColor">Log out</button>
             </div>
             </ion-col>

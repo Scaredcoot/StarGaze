@@ -1,29 +1,53 @@
-
 .log-in {
     background:color($colors, midnight);
     color:color($colors, light);
-    
-}
-.today {
+    background-image: url('../assets/imgs/login.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;    
+ }
+ .today {
     background:color($colors, midnight);
     color:color($colors, textColor); 
-}
-.menu {
+    background-image: url('../assets/imgs/today_1024.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+ 
+ }
+ .menu {
     background:color($colors, midnight);
     color:color($colors, light);
-}
-.places {
     background:color($colors, midnight);
     color:color($colors, textColor);
-}
-.tabs-ios .tab-button-icon {
-    color:color($colors, tabColor);
-}
-.toolbar-title {
+    background-image: url('../assets/imgs/login.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+ 
+ }
+ .places {
+    background:color($colors, midnight);
     color:color($colors, textColor);
-}
-//Döljer scrollbaren
-.scroll-content{
+    background-image: url('../assets/imgs/today_1024.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+ 
+ 
+ }
+ .tabs-ios .tab-button-icon {
+    color:color($colors, tabColor);
+ }
+ .toolbar-title {
+    color:color($colors, textColor);
+ }
+ //Döljer scrollbaren
+ .scroll-content{
     overflow-y: hidden;
-}
+ }
+ 
+ 
+ 
+
 

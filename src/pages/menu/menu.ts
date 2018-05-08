@@ -1,12 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { SettingsPage } from '../settings/settings';
+import { AboutPage } from '../about/about';
 
-/**
- * Generated class for the MenuPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
 
 @IonicPage()
 @Component({
@@ -17,6 +13,16 @@ export class MenuPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
+  
+openAboutPage(){
+  this.navCtrl.push(AboutPage);
+
+}
+  
+openSettingPage(){
+  this.navCtrl.push(SettingsPage);
+
+}
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad MenuPage');
