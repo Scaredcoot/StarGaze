@@ -7,61 +7,59 @@
   </ion-header>
   
   
-  <ion-content padding class="places">
-      <ion-img width="40" height="40" src="../../assets/imgs/image2.png"></ion-img>
+  <ion-content scroll="true" padding class="places">
     <ion-grid>
       <ion-row>
-        <ion-col width-50 offset-25>
+        <ion-col>
           <div text-center>
             <h1 strong> Nackareservatet tonight</h1>
           </div>
-          <div text-center>
-            <h5 strong> Status: Good </h5>
+          <div class="status" text-center>
+            <h5 strong>Good </h5>
+            <p>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star-outline"></ion-icon>
+            </p>
+            
           </div>
-          
-    
-        <ion-scroll class="scroll" style="width:100%; height:160px">
-         <div class="cards">
-          <ion-card>
-            <ion-card-header>
-              Light
-            </ion-card-header>
-            <ion-card-content>
-              30%
-            </ion-card-content>
-          </ion-card>
-          <ion-card>
-              <ion-card-header>
-                Temp
-              </ion-card-header>
-              <ion-card-content>
-                11
-              </ion-card-content>
-            </ion-card>
-           <ion-card>
-               <ion-card-header>
-                Visibility
-              </ion-card-header>
-              <ion-card-content>
-                3 km
-              </ion-card-content>
-            </ion-card>
-          </div>
-         </ion-scroll>
-         
         </ion-col>
       </ion-row>
-      <ion-row>
-        <ion-col width-50>
+    
+        <ion-row class="weather-factors" text-center>
+          <ion-col col-4>
+            <ion-icon name="sunny"></ion-icon>
+           <!-- <p>Light</p> -->
+            <p>30%</p>  
+          </ion-col>
+
+          <ion-col class="thermo-col" col-4>
+            <ion-icon name="thermometer"></ion-icon>
+           <!-- <p>Temp</p> -->
+            <p>11&deg;</p>  
+          </ion-col>
+
+          <ion-col col-4>
+            <ion-icon name="cloud"></ion-icon>
+            <!-- <p>Cloudiness</p> -->
+            <p>3 km</p>  
+          </ion-col>
+        </ion-row>
+          
+    
+      <ion-row >
+        <ion-col class="forecast" >
           <h6 strong> Forecast </h6>
+          <hr class="divider">
           <ul>
-            <p class="alignright">Good</p>
+            <p class="alignright">Excellent</p>
             <li>Tuesday</li>
             <div style="clear: both;"></div>
             <p class="alignright">Good</p>
             <li>Wednesday</li>
             <div style="clear: both;"></div>
-            <p class="alignright">Bad</p>
+            <p class="alignright">Okey</p>
             <li>Thursday</li>
             <div style="clear: both;"></div>
             <p class="alignright">Good</p>
@@ -72,6 +70,8 @@
             <div style="clear: both;"></div>
   
           </ul>
+          
+          
           
         </ion-col>
       </ion-row>

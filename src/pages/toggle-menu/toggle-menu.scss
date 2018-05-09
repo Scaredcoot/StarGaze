@@ -1,0 +1,28 @@
+page-toggle-menu {
+    .menuButton {
+ 
+ 
+        background-image: url('../assets/imgs/2.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        margin-top: 80px; 
+    
+        button {
+              margin-left: 0;
+          }
+      }
+      .ion-toggle{
+        border-radius:30px;
+        $toggle-ios-background-color-on: color($colors, textColor);
+      }
+ 
+      .loggis {
+        border-radius: 30px;
+        margin-top: 50px; 
+ 
+      }
+  
+       
+ 
+      }

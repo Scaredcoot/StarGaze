@@ -45,9 +45,17 @@
     background-size: contain;
  
  }
- .tabs-ios .tab-button-icon {
-    color:color($colors, tabColor);
+ .about {
+    background:color($colors, midnight);
+    color:color($colors, light);
+    background-image: url('../assets/imgs/login.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;    
  }
+ /*.tabs-ios .tab-button-icon {
+    color:color($colors, tabColor);
+ }*/
  .toolbar-title {
     color:color($colors, textColor);
  }
@@ -55,6 +63,13 @@
  .scroll-content{
     overflow-y: hidden;
  }
+ .activeHighLight{
+     background-color:color($colors, textColor);
+ }
+
+ 
+ 
+ 
  
  
  

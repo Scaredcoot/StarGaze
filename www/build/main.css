@@ -43449,10 +43449,18 @@ ion-navbar.toolbar {
   background-size: contain;
 }
 
-.tabs-ios .tab-button-icon {
-  color: rgba(251, 245, 253, 0.133);
+.about {
+  background: #380b61;
+  color: #f4f4f4;
+  background-image: url("../assets/imgs/login.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
+/*.tabs-ios .tab-button-icon {
+    color:color($colors, tabColor);
+ }*/
 .toolbar-title {
   color: #df7401;
 }
@@ -43461,7 +43469,11 @@ ion-navbar.toolbar {
   overflow-y: hidden;
 }
 
-page-about .icon {
+.activeHighLight {
+  background-color: #df7401;
+}
+
+page-about .help-icon {
   font-size: 50px;
 }
 
@@ -43521,6 +43533,32 @@ page-gardet .alignright {
   float: right;
 }
 
+page-grimsta .weather-factors {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+page-grimsta .scroll-content {
+  overflow-y: scroll;
+}
+
+page-grimsta .thermo-col {
+  border-left: 1px solid rgba(238, 238, 238, 0.2);
+  border-right: 1px solid rgba(238, 238, 238, 0.2);
+}
+
+page-grimsta .status {
+  margin-top: 25px;
+}
+
+page-grimsta .divider {
+  background: rgba(238, 238, 238, 0.2);
+}
+
+page-grimsta .forecast {
+  color: #f4f4f4;
+}
+
 page-grimsta ul {
   list-style: none;
   padding-left: 10px;
@@ -43551,22 +43589,30 @@ page-grimsta .alignright {
   float: right;
 }
 
-page-grimsta .cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: auto;
-  white-space: nowrap;
+page-jarva .weather-factors {
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
 
-page-grimsta .cards ion-card {
-  position: relative;
-  text-align: center;
-  border-radius: 4px;
+page-jarva .scroll-content {
+  overflow-y: scroll;
 }
 
-page-grimsta .cards div {
-  width: 100px;
-  height: 70px;
+page-jarva .thermo-col {
+  border-left: 1px solid rgba(238, 238, 238, 0.2);
+  border-right: 1px solid rgba(238, 238, 238, 0.2);
+}
+
+page-jarva .status {
+  margin-top: 25px;
+}
+
+page-jarva .divider {
+  background: rgba(238, 238, 238, 0.2);
+}
+
+page-jarva .forecast {
+  color: #f4f4f4;
 }
 
 page-jarva ul {
@@ -43597,24 +43643,6 @@ page-jarva a:hover {
 
 page-jarva .alignright {
   float: right;
-}
-
-page-jarva .cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: auto;
-  white-space: nowrap;
-}
-
-page-jarva .cards ion-card {
-  position: relative;
-  text-align: center;
-  border-radius: 4px;
-}
-
-page-jarva .cards div {
-  width: 100px;
-  height: 70px;
 }
 
 page-log-in .logga {
@@ -43651,6 +43679,32 @@ page-menu .loggis {
   margin-top: 50px;
 }
 
+page-nacka .weather-factors {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+page-nacka .scroll-content {
+  overflow-y: scroll;
+}
+
+page-nacka .thermo-col {
+  border-left: 1px solid rgba(238, 238, 238, 0.2);
+  border-right: 1px solid rgba(238, 238, 238, 0.2);
+}
+
+page-nacka .status {
+  margin-top: 25px;
+}
+
+page-nacka .divider {
+  background: rgba(238, 238, 238, 0.2);
+}
+
+page-nacka .forecast {
+  color: #f4f4f4;
+}
+
 page-nacka ul {
   list-style: none;
   padding-left: 10px;
@@ -43679,24 +43733,6 @@ page-nacka a:hover {
 
 page-nacka .alignright {
   float: right;
-}
-
-page-nacka .cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: auto;
-  white-space: nowrap;
-}
-
-page-nacka .cards ion-card {
-  position: relative;
-  text-align: center;
-  border-radius: 4px;
-}
-
-page-nacka .cards div {
-  width: 100px;
-  height: 70px;
 }
 
 page-places ul {
@@ -43803,6 +43839,53 @@ page-today .forecast {
   color: #f4f4f4;
 }
 
+page-toggle-menu .menuButton {
+  background-image: url("../assets/imgs/2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-top: 80px;
+}
+
+page-toggle-menu .menuButton button {
+  margin-left: 0;
+}
+
+page-toggle-menu .ion-toggle {
+  border-radius: 30px;
+}
+
+page-toggle-menu .loggis {
+  border-radius: 30px;
+  margin-top: 50px;
+}
+
+page-tyresta .weather-factors {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+page-tyresta .scroll-content {
+  overflow-y: scroll;
+}
+
+page-tyresta .thermo-col {
+  border-left: 1px solid rgba(238, 238, 238, 0.2);
+  border-right: 1px solid rgba(238, 238, 238, 0.2);
+}
+
+page-tyresta .status {
+  margin-top: 25px;
+}
+
+page-tyresta .divider {
+  background: rgba(238, 238, 238, 0.2);
+}
+
+page-tyresta .forecast {
+  color: #f4f4f4;
+}
+
 page-tyresta ul {
   list-style: none;
   padding-left: 10px;
@@ -43831,22 +43914,4 @@ page-tyresta a:hover {
 
 page-tyresta .alignright {
   float: right;
-}
-
-page-tyresta .cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: auto;
-  white-space: nowrap;
-}
-
-page-tyresta .cards ion-card {
-  position: relative;
-  text-align: center;
-  border-radius: 4px;
-}
-
-page-tyresta .cards div {
-  width: 100px;
-  height: 70px;
 }

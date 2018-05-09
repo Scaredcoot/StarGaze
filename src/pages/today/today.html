@@ -1,7 +1,10 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>Status for today</ion-title>
+    <ion-title>Status for tonight</ion-title>
+    <button ion-button menuToggle color="textColor">
+        <ion-icon name="menu"></ion-icon>
+    </button>
   </ion-navbar>
 </ion-header>
 
@@ -52,7 +55,7 @@
         <h6 strong> Show forecast for... </h6> 
           <ul>
             <li><a href="#" (click)="GardetPlaces()">Gärdet</a></li> 
-            <li><a href="#" (click)="TyrestaPlaces()">Tyresta Naturpark</a></li>
+            <li><a href="#" (click)="TyrestaPlaces()">Flatens Naturreservat</a></li>
             <li><a href="#" (click)="NackaPlaces()">Nackareservatet</a></li>
             <li><a href="#" (click)="GrimstaPlaces()">Grimsta</a></li>
             <li><a href="#" (click)="JarvaPlaces()"> Järvafältet</a></li>
