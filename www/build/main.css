@@ -43440,6 +43440,15 @@ ion-navbar.toolbar {
   background-size: contain;
 }
 
+.settings {
+  background: #380b61;
+  color: #df7401;
+  background-image: url("../assets/imgs/today_1024.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
 .tabs-ios .tab-button-icon {
   color: rgba(251, 245, 253, 0.133);
 }
@@ -43736,6 +43745,14 @@ page-places .cards ion-card {
 page-places .cards div {
   width: 100px;
   height: 70px;
+}
+
+page-settings .push {
+  background-color: #050124;
+}
+
+page-settings .toggle {
+  margin-top: 150px;
 }
 
 page-today ul {

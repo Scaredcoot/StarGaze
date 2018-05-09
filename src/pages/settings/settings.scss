@@ -1,3 +1,15 @@
 page-settings {
-
+    
+    .push{
+        background-color: color($colors, topbarColor);
+        
+      
+    }
+    .toggle{ 
+        margin-top: 150px;
+        
+     }
+     .ion-toggle{
+        $toggle-ios-border-radius: 100px;
+     }
 }

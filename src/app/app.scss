@@ -36,6 +36,15 @@
  
  
  }
+ .settings {
+    background:color($colors, midnight);
+    color:color($colors, textColor);
+    background-image: url('../assets/imgs/today_1024.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+ 
+ }
  .tabs-ios .tab-button-icon {
     color:color($colors, tabColor);
  }
