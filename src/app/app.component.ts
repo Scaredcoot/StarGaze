@@ -15,7 +15,7 @@ import { LogInPage } from '../pages/log-in/log-in';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage:any = LogInPage;
+  rootPage:any = TodayPage;
   activePage: any;
 
   pages: Array<{title: string, component: any}>;
@@ -25,9 +25,9 @@ export class MyApp {
 
 
   this.pages = [ 
-  { title: 'Tonight', component: TodayPage},
-  { title: 'Settings', component: SettingsPage}, 
-  { title: 'About', component: AboutPage}
+  { title: 'Forecast', component: TodayPage},
+  { title: 'About the app', component: AboutPage},
+  { title: 'Settings', component: SettingsPage}
   ];
     this.activePage = this.pages[0];
 

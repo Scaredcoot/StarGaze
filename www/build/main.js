@@ -145,7 +145,6 @@ var JarvaPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_facebook__ = __webpack_require__(163);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_firebase__ = __webpack_require__(165);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_firebase___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_firebase__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__today_today__ = __webpack_require__(54);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -159,7 +158,6 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-
 var LogInPage = /** @class */ (function () {
     function LogInPage(navCtrl, navParams, facebook) {
         this.navCtrl = navCtrl;
@@ -168,11 +166,12 @@ var LogInPage = /** @class */ (function () {
         this.userData = null;
     }
     LogInPage.prototype.loginWithFacebook = function () {
-        var _this = this;
         var provider = new __WEBPACK_IMPORTED_MODULE_3_firebase___default.a.auth.FacebookAuthProvider();
         __WEBPACK_IMPORTED_MODULE_3_firebase___default.a.auth().signInWithRedirect(provider).then(function () {
-            __WEBPACK_IMPORTED_MODULE_3_firebase___default.a.auth().getRedirectResult().then(function (auth) {
-                return _this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_4__today_today__["a" /* TodayPage */]);
+            __WEBPACK_IMPORTED_MODULE_3_firebase___default.a.auth().getRedirectResult().then(function (result) {
+                alert(JSON.stringify(result));
+            }).catch(function (error) {
+                alert(JSON.stringify(error));
             });
         });
     };
@@ -181,7 +180,7 @@ var LogInPage = /** @class */ (function () {
     };
     LogInPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-log-in',template:/*ion-inline-start:"C:\Users\Choppah\PVT15\StarGaze\src\pages\log-in\log-in.html"*/'\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title></ion-title>\n\n   \n\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content padding class="log-in">\n\n   \n\n<ion-grid>\n\n<ion-row>\n\n  <ion-col width-100>\n\n\n\n     <div class="logga" >\n\n      <img src="../../assets/imgs/image.png">\n\n      <button ion-button full round (click)="loginWithFacebook()">Log in with Facebook</button>\n\n      <button ion-button full round color="danger">Log in with Google</button>\n\n    </div>\n\n    <ion-card *ngIf="userData">\n\n      <ion-card-header>{{ userData.username }}</ion-card-header>\n\n     <img [src]="userData.picture">\n\n     <ion-card-content>\n\n       <p>First Name: {{ userData.first_name }}</p>\n\n     </ion-card-content>\n\n    </ion-card>\n\n    </ion-col>\n\n  </ion-row>\n\n </ion-grid>  \n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Choppah\PVT15\StarGaze\src\pages\log-in\log-in.html"*/,
+            selector: 'page-log-in',template:/*ion-inline-start:"C:\Users\Choppah\PVT15\StarGaze\src\pages\log-in\log-in.html"*/'\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title></ion-title>\n\n   \n\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content padding class="log-in">\n\n   \n\n<ion-grid>\n\n<ion-row>\n\n  <ion-col width-100>\n\n\n\n     <div class="logga" >\n\n      <img src="../../assets/imgs/image.png">\n\n      <button ion-button full round (click)="loginWithFacebook()">Log in with Facebook</button>\n\n      <button ion-button full round color="danger">Log in with Google</button>\n\n    </div>\n\n    <ion-card *ngIf="userData">\n\n        <ion-card-header>{{ userData.username }}</ion-card-header>\n\n       <img [src]="userData.picture">\n\n       <ion-card-content>\n\n         <p>First Name: {{ userData.first_name }}</p>\n\n       </ion-card-content>\n\n      </ion-card>\n\n    </ion-col>\n\n  </ion-row>\n\n </ion-grid>  \n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Choppah\PVT15\StarGaze\src\pages\log-in\log-in.html"*/,
         }),
         __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__ionic_native_facebook__["a" /* Facebook */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__ionic_native_facebook__["a" /* Facebook */]) === "function" && _c || Object])
     ], LogInPage);
@@ -574,7 +573,7 @@ var AppModule = /** @class */ (function () {
                         { loadChildren: '../pages/toggle-menu/toggle-menu.module#ToggleMenuPageModule', name: 'ToggleMenuPage', segment: 'toggle-menu', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/tyresta/tyresta.module#TyrestaPageModule', name: 'TyrestaPage', segment: 'tyresta', priority: 'low', defaultHistory: [] }
                     ]
-                })
+                }),
             ],
             bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["a" /* IonicApp */]],
             entryComponents: [
@@ -620,7 +619,6 @@ var AppModule = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_today_today__ = __webpack_require__(54);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_settings_settings__ = __webpack_require__(52);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_about_about__ = __webpack_require__(53);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_log_in_log_in__ = __webpack_require__(109);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -637,18 +635,17 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-
 var MyApp = /** @class */ (function () {
     function MyApp(platform, statusBar, splashScreen) {
         this.platform = platform;
         this.statusBar = statusBar;
         this.splashScreen = splashScreen;
-        this.rootPage = __WEBPACK_IMPORTED_MODULE_7__pages_log_in_log_in__["a" /* LogInPage */];
+        this.rootPage = __WEBPACK_IMPORTED_MODULE_4__pages_today_today__["a" /* TodayPage */];
         this.initializeApp();
         this.pages = [
-            { title: 'Tonight', component: __WEBPACK_IMPORTED_MODULE_4__pages_today_today__["a" /* TodayPage */] },
-            { title: 'Settings', component: __WEBPACK_IMPORTED_MODULE_5__pages_settings_settings__["a" /* SettingsPage */] },
-            { title: 'About', component: __WEBPACK_IMPORTED_MODULE_6__pages_about_about__["a" /* AboutPage */] }
+            { title: 'Forecast', component: __WEBPACK_IMPORTED_MODULE_4__pages_today_today__["a" /* TodayPage */] },
+            { title: 'About the app', component: __WEBPACK_IMPORTED_MODULE_6__pages_about_about__["a" /* AboutPage */] },
+            { title: 'Settings', component: __WEBPACK_IMPORTED_MODULE_5__pages_settings_settings__["a" /* SettingsPage */] }
         ];
         this.activePage = this.pages[0];
     }
@@ -670,15 +667,14 @@ var MyApp = /** @class */ (function () {
     };
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Nav */]),
-        __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Nav */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Nav */]) === "function" && _a || Object)
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Nav */])
     ], MyApp.prototype, "nav", void 0);
     MyApp = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Choppah\PVT15\StarGaze\src\app\app.html"*/'<ion-menu [content]="content">\n\n    <ion-header>\n\n        <ion-toolbar>\n\n            <ion-title>Menu</ion-title>\n\n        </ion-toolbar>\n\n    </ion-header>\n\n\n\n\n\n<ion-content>\n\n    \n\n    <ion-list>\n\n        <button menuClose ion-item *ngFor="let p of pages" [class.activeHighLight]="checkActive(p)" (click)="openPage(p)">\n\n            {{p.title}}\n\n        </button>\n\n        <button ion-button block outline color="textColor" icon-right>\n\n            Facebook Event\n\n            <ion-icon name="contact">\n\n                \n\n            </ion-icon>\n\n        </button>\n\n        <button ion-button block outline color="textColor">Log out</button>\n\n    </ion-list>\n\n\n\n</ion-content>\n\n\n\n\n\n</ion-menu>\n\n\n\n\n\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>\n\n'/*ion-inline-end:"C:\Users\Choppah\PVT15\StarGaze\src\app\app.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Choppah\PVT15\StarGaze\src\app\app.html"*/'<ion-menu [content]="content">\n\n    <ion-header>\n\n        <ion-toolbar>\n\n            <ion-title>Menu</ion-title>\n\n        </ion-toolbar>\n\n    </ion-header>\n\n\n\n\n\n<ion-content padding class="toggle-menu">\n\n    \n\n    <ion-list padding class="lista" >\n\n        <button menuClose ion-item  *ngFor="let p of pages" [class.activeHighLight]="checkActive(p)" (click)="openPage(p)">\n\n            {{p.title}}\n\n        </button>\n\n        <div padding class="menuButton">\n\n         <button ion-button block outline color="textColor" icon-right onClick="window.open(\'https://www.facebook.com/groups/368396763650540/\', \'_system\', \'location=yes\');return false;">\n\n            StarGaze Community\n\n            <ion-icon name="contact">\n\n                \n\n            </ion-icon>\n\n        </button>\n\n        <button ion-button block outline color="textColor">Log out</button>\n\n    </div>\n\n    </ion-list>\n\n\n\n</ion-content>\n\n\n\n\n\n</ion-menu>\n\n\n\n\n\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>\n\n'/*ion-inline-end:"C:\Users\Choppah\PVT15\StarGaze\src\app\app.html"*/
         }),
-        __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]) === "function" && _d || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
     ], MyApp);
     return MyApp;
-    var _a, _b, _c, _d;
 }());
 
 //# sourceMappingURL=app.component.js.map
@@ -832,7 +828,7 @@ var SettingsPage = /** @class */ (function () {
     };
     SettingsPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-settings',template:/*ion-inline-start:"C:\Users\Choppah\PVT15\StarGaze\src\pages\settings\settings.html"*/'\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>Settings</ion-title>\n\n    <button ion-button menuToggle color="textColor">\n\n        <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n  <ion-content padding class="settings">\n\n    <ion-grid>\n\n      <ion-row>\n\n        <ion-col>\n\n          <div text-center class="toggle">\n\n            <h6>Enable push notifications to recieve information for when it\'s a perfect time for stargazing!</h6>\n\n          </div>\n\n          <div class="ion-toggle" >\n\n            <ion-item>\n\n              <ion-label full color="textColor">Push notifications</ion-label>\n\n              <ion-toggle color="textColor">disabled="true"</ion-toggle>\n\n             </ion-item>\n\n          </div>\n\n          <button href="#" full round color="textColor" onClick="window.open(\'https://google.com\', \'_system\', \'location=yes\');return false;">link</button>\n\n        </ion-col>\n\n      </ion-row>\n\n      \n\n\n\n\n\n\n\n'/*ion-inline-end:"C:\Users\Choppah\PVT15\StarGaze\src\pages\settings\settings.html"*/,
+            selector: 'page-settings',template:/*ion-inline-start:"C:\Users\Choppah\PVT15\StarGaze\src\pages\settings\settings.html"*/'\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>Settings</ion-title>\n\n    <button ion-button menuToggle color="textColor">\n\n        <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n  <ion-content padding class="settings">\n\n    <ion-grid>\n\n      <ion-row>\n\n        <ion-col>\n\n          <div text-center class="toggle">\n\n            <h6>Enable push notifications to recieve information for when it\'s a perfect time for stargazing!</h6>\n\n          </div>\n\n          <div class="ion-toggle" >\n\n            <ion-item>\n\n              <ion-label full color="textColor">Push notifications</ion-label>\n\n              <ion-toggle color="textColor">disabled="true"</ion-toggle>\n\n             </ion-item>\n\n          </div>\n\n         \n\n        </ion-col>\n\n      </ion-row>\n\n      \n\n\n\n\n\n\n\n'/*ion-inline-end:"C:\Users\Choppah\PVT15\StarGaze\src\pages\settings\settings.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
     ], SettingsPage);

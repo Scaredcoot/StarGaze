@@ -66,8 +66,22 @@
  .activeHighLight{
      background-color:color($colors, textColor);
  }
-
+.menuButton{
+    margin-top: 55px;
+}
+.toggle-menu{
+    background:color($colors, midnight);
+    color:color($colors, light);
+    background-image: url('../assets/imgs/login.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.lista .item {
+    background-color:transparent;
+    color:color($colors, textColor);
  
+}
  
  
  
