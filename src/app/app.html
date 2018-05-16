@@ -14,12 +14,12 @@
         </button>
         <div padding class="menuButton">
          <button ion-button block outline color="textColor" icon-right onClick="window.open('https://www.facebook.com/groups/368396763650540/', '_system', 'location=yes');return false;">
-            StarGaze Community
-            <ion-icon name="contact">
+            Community
+            <ion-icon color="primary" name="logo-facebook">
                 
             </ion-icon>
         </button>
-        <button ion-button block outline color="textColor">Log out</button>
+        <button ion-button block outline color="textColor" icon-right (click)="logOut()">Log out</button>
     </div>
     </ion-list>
 

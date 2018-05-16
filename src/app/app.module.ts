@@ -3,6 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 import firebase from 'firebase';
+import { HttpModule } from '@angular/http';
+//import { HttpClient } from '@angular/common/http';
 
 import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
@@ -22,6 +24,7 @@ import { Facebook } from '@ionic-native/facebook';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { ForecastProvider } from '../providers/forecast/forecast';
 
 export const firebaseConfig={
   apiKey: "AIzaSyBtzmdRYHLeBrLt8MGdti9G0A1kXIV_xg4",
@@ -54,6 +57,7 @@ firebase.initializeApp(firebaseConfig);
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
+    HttpModule,
     
   ],
   bootstrap: [IonicApp],
@@ -77,7 +81,8 @@ firebase.initializeApp(firebaseConfig);
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    Facebook
+    Facebook,
+    ForecastProvider
   ]
 })
 export class AppModule {}

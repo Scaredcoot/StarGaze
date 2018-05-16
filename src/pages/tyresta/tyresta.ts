@@ -1,12 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-
-/**
- * Generated class for the TyrestaPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
+import { ForecastProvider} from '../../providers/forecast/forecast';
 
 @IonicPage()
 @Component({
@@ -14,12 +8,18 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'tyresta.html',
 })
 export class TyrestaPage {
+forecast: any;
+location: {location:string};
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, private forecastProvider: ForecastProvider) {
   }
-
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad TyrestaPage');
+  ionViewWillEnter(){
+    this.location = {location:'tyrestanationalpark'}
+    
+    this.forecastProvider.getForecast(this.location.location)
+    .subscribe(forecast => 
+      {console.log(forecast);
+  
+  });
   }
-
 }

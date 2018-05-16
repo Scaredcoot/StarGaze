@@ -2,6 +2,7 @@ import { Component, ViewChild } from '@angular/core';
 import { Nav, Platform } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { MenuController } from 'ionic-angular'
 
 import { TodayPage } from '../pages/today/today';
 import { SettingsPage } from '../pages/settings/settings';
@@ -15,12 +16,12 @@ import { LogInPage } from '../pages/log-in/log-in';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage:any = TodayPage;
+  rootPage:any = LogInPage;
   activePage: any;
 
   pages: Array<{title: string, component: any}>;
 
-  constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {
+  constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen, public menuController: MenuController) {
     this.initializeApp();
 
 
@@ -30,6 +31,8 @@ export class MyApp {
   { title: 'Settings', component: SettingsPage}
   ];
     this.activePage = this.pages[0];
+
+  
 
   } 
 initializeApp(){
@@ -47,4 +50,10 @@ openPage(page) {
 checkActive(page){
   return page == this.activePage;
 }
+logOut(){
+  this.nav.push(LogInPage);
+  this.nav.setRoot(LogInPage);
+  this.menuController.close();
+}
+
 }

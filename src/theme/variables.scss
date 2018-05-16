@@ -10,7 +10,7 @@ $app-direction: ltr;
 
 
 $colors: (
-  primary:    #488aff,
+  primary:    #3b5998,
   secondary:  #32db64,
   danger:     #f53d3d,
   light:      #f4f4f4,
@@ -28,11 +28,11 @@ $colors: (
 //Top toolbar
 $toolbar-ios-background:color($colors, topbarColor);
 
-//Tabs
+/*Tabs
 $tabs-ios-background:color($colors, toolbarColor);
 $tabs-ios-tab-color-active:color($colors, textColor);
 $tabs-ios-tab-text-color:color($colors, tabColor);
-
+*/
 
 
 @import "ionic.theme.default";

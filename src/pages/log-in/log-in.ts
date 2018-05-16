@@ -16,16 +16,15 @@ export class LogInPage {
   }
 
   loginWithFacebook(){
-    let provider = new firebase.auth.FacebookAuthProvider();
-
-      firebase.auth().signInWithRedirect(provider).then(()=>{
+    var provider = new firebase.auth.FacebookAuthProvider();
+      firebase.auth().signInWithPopup(provider).then(()=>{
         firebase.auth().getRedirectResult().then((result)=>{
-          alert(JSON.stringify(result));
+          this.navCtrl.push(TodayPage);
+          this.navCtrl.setRoot(TodayPage);
         }).catch(function(error) {
           alert(JSON.stringify(error))
         });
       })
-     
     
 
   }
