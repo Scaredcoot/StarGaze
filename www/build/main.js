@@ -7,7 +7,7 @@ webpackJsonp([11],{
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GardetPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_forecast_forecast__ = __webpack_require__(166);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_forecast_forecast__ = __webpack_require__(34);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -31,16 +31,17 @@ var GardetPage = /** @class */ (function () {
         this.forecastProvider.getForecast(this.location.location)
             .subscribe(function (forecast) {
             console.log(forecast);
+            var obj = JSON.parse(forecast);
+            console.log(obj);
         });
     };
     GardetPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-gardet',template:/*ion-inline-start:"C:\Users\Choppah\PVT15\StarGaze\src\pages\gardet\gardet.html"*/'<ion-header>\n\n\n\n    <ion-navbar>\n\n      \n\n      <ion-title>Places</ion-title>\n\n    </ion-navbar>\n\n  \n\n  </ion-header>\n\n  \n\n  \n\n  <ion-content padding class="places">\n\n    <ion-grid>\n\n      <ion-row>\n\n        <ion-col>\n\n          <div text-center>\n\n            <h1 strong> Gärdet tonight</h1>\n\n          </div>\n\n          <div class="status" text-center>\n\n            <h5 strong>Good </h5>\n\n            <p>\n\n                <ion-icon name="star"></ion-icon>\n\n                <ion-icon name="star"></ion-icon>\n\n                <ion-icon name="star"></ion-icon>\n\n                <ion-icon name="star-outline"></ion-icon>\n\n            </p>\n\n            \n\n          </div>\n\n        </ion-col>\n\n      </ion-row>\n\n    \n\n        <ion-row class="weather-factors" text-center>\n\n          <ion-col col-4>\n\n            <ion-icon name="sunny"></ion-icon>\n\n           <!-- <p>Light</p> -->\n\n            <p>30%</p>  \n\n          </ion-col>\n\n\n\n          <ion-col class="thermo-col" col-4>\n\n            <ion-icon name="thermometer"></ion-icon>\n\n           <!-- <p>Temp</p> -->\n\n            <p>11&deg;</p>  \n\n          </ion-col>\n\n\n\n          <ion-col col-4>\n\n            <ion-icon name="cloud"></ion-icon>\n\n            <!-- <p>Cloudiness</p> -->\n\n            <p>3 km</p>  \n\n          </ion-col>\n\n        </ion-row>\n\n          \n\n    \n\n      <ion-row >\n\n        <ion-col class="forecast" >\n\n          <h6 strong> Forecast </h6>\n\n          <hr class="divider">\n\n          <ul>\n\n            <p class="alignright">Excellent</p>\n\n            <li>Tuesday</li>\n\n            <div style="clear: both;"></div>\n\n            <p class="alignright">Good</p>\n\n            <li>Wednesday</li>\n\n            <div style="clear: both;"></div>\n\n            <p class="alignright">Okey</p>\n\n            <li>Thursday</li>\n\n            <div style="clear: both;"></div>\n\n            <p class="alignright">Good</p>\n\n            <li>Friday</li>\n\n            <div style="clear: both;"></div>\n\n            <p class="alignright">Bad</p>\n\n            <li>Saturday</li>\n\n            <div style="clear: both;"></div>\n\n  \n\n          </ul>\n\n          \n\n          \n\n          \n\n        </ion-col>\n\n      </ion-row>\n\n    </ion-grid>\n\n  \n\n  \n\n  \n\n  \n\n  </ion-content>\n\n'/*ion-inline-end:"C:\Users\Choppah\PVT15\StarGaze\src\pages\gardet\gardet.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__providers_forecast_forecast__["a" /* ForecastProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__providers_forecast_forecast__["a" /* ForecastProvider */]) === "function" && _c || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_forecast_forecast__["a" /* ForecastProvider */]])
     ], GardetPage);
     return GardetPage;
-    var _a, _b, _c;
 }());
 
 //# sourceMappingURL=gardet.js.map
@@ -54,7 +55,7 @@ var GardetPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GrimstaPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_forecast_forecast__ = __webpack_require__(166);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_forecast_forecast__ = __webpack_require__(34);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -90,10 +91,9 @@ var GrimstaPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-grimsta',template:/*ion-inline-start:"C:\Users\Choppah\PVT15\StarGaze\src\pages\grimsta\grimsta.html"*/'<ion-header>\n\n    <ion-navbar>\n      <ion-title>Places</ion-title>\n    </ion-navbar>\n  \n  </ion-header>\n  \n  \n  <ion-content scroll="true" padding class="places">\n    <ion-grid>\n      <ion-row>\n        <ion-col>\n          <div text-center>\n            <h1 strong> Grimsta tonight</h1>\n          </div>\n          <div class="status" text-center>\n            <h5 strong>Good </h5>\n            <p>\n                <ion-icon name="star"></ion-icon>\n                <ion-icon name="star"></ion-icon>\n                <ion-icon name="star"></ion-icon>\n                <ion-icon name="star-outline"></ion-icon>\n            </p>\n            \n          </div>\n        </ion-col>\n      </ion-row>\n    \n        <ion-row class="weather-factors" text-center>\n          <ion-col col-4>\n            <ion-icon name="sunny"></ion-icon>\n           <!-- <p>Light</p> -->\n            <p>30%</p>  \n          </ion-col>\n\n          <ion-col class="thermo-col" col-4>\n            <ion-icon name="thermometer"></ion-icon>\n           <!-- <p>Temp</p> -->\n            <p>11&deg;</p>  \n          </ion-col>\n\n          <ion-col col-4>\n            <ion-icon name="cloud"></ion-icon>\n            <!-- <p>Cloudiness</p> -->\n            <p>3 km</p>  \n          </ion-col>\n        </ion-row>\n          \n    \n      <ion-row >\n        <ion-col class="forecast" >\n          <h6 strong> Forecast </h6>\n          <hr class="divider">\n          <ul>\n            <p class="alignright">Excellent</p>\n            <li>Tuesday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Good</p>\n            <li>Wednesday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Okey</p>\n            <li>Thursday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Good</p>\n            <li>Friday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Bad</p>\n            <li>Saturday</li>\n            <div style="clear: both;"></div>\n  \n          </ul>\n          \n          \n          \n        </ion-col>\n      </ion-row>\n    </ion-grid>\n  \n  \n  \n  \n  </ion-content>\n'/*ion-inline-end:"C:\Users\Choppah\PVT15\StarGaze\src\pages\grimsta\grimsta.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__providers_forecast_forecast__["a" /* ForecastProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__providers_forecast_forecast__["a" /* ForecastProvider */]) === "function" && _c || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_forecast_forecast__["a" /* ForecastProvider */]])
     ], GrimstaPage);
     return GrimstaPage;
-    var _a, _b, _c;
 }());
 
 //# sourceMappingURL=grimsta.js.map
@@ -107,7 +107,7 @@ var GrimstaPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return JarvaPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_forecast_forecast__ = __webpack_require__(166);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_forecast_forecast__ = __webpack_require__(34);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -137,10 +137,9 @@ var JarvaPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-jarva',template:/*ion-inline-start:"C:\Users\Choppah\PVT15\StarGaze\src\pages\jarva\jarva.html"*/'<ion-header>\n\n    <ion-navbar>\n      <ion-title>Places</ion-title>\n    </ion-navbar>\n  \n  </ion-header>\n  \n  \n  <ion-content scroll="true" padding class="places">\n    <ion-grid>\n      <ion-row>\n        <ion-col>\n          <div text-center>\n            <h1 strong> Järvafältet tonight</h1>\n          </div>\n          <div class="status" text-center>\n            <h5 strong>Good </h5>\n            <p>\n                <ion-icon name="star"></ion-icon>\n                <ion-icon name="star"></ion-icon>\n                <ion-icon name="star"></ion-icon>\n                <ion-icon name="star-outline"></ion-icon>\n            </p>\n            \n          </div>\n        </ion-col>\n      </ion-row>\n    \n        <ion-row class="weather-factors" text-center>\n          <ion-col col-4>\n            <ion-icon name="sunny"></ion-icon>\n           <!-- <p>Light</p> -->\n            <p>30%</p>  \n          </ion-col>\n\n          <ion-col class="thermo-col" col-4>\n            <ion-icon name="thermometer"></ion-icon>\n           <!-- <p>Temp</p> -->\n            <p>11&deg;</p>  \n          </ion-col>\n\n          <ion-col col-4>\n            <ion-icon name="cloud"></ion-icon>\n            <!-- <p>Cloudiness</p> -->\n            <p>3 km</p>  \n          </ion-col>\n        </ion-row>\n          \n    \n      <ion-row >\n        <ion-col class="forecast" >\n          <h6 strong> Forecast </h6>\n          <hr class="divider">\n          <ul>\n            <p class="alignright">Excellent</p>\n            <li>Tuesday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Good</p>\n            <li>Wednesday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Okey</p>\n            <li>Thursday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Good</p>\n            <li>Friday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Bad</p>\n            <li>Saturday</li>\n            <div style="clear: both;"></div>\n  \n          </ul>\n          \n          \n          \n        </ion-col>\n      </ion-row>\n    </ion-grid>\n  \n  \n  \n  \n  </ion-content>\n'/*ion-inline-end:"C:\Users\Choppah\PVT15\StarGaze\src\pages\jarva\jarva.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__providers_forecast_forecast__["a" /* ForecastProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__providers_forecast_forecast__["a" /* ForecastProvider */]) === "function" && _c || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_forecast_forecast__["a" /* ForecastProvider */]])
     ], JarvaPage);
     return JarvaPage;
-    var _a, _b, _c;
 }());
 
 //# sourceMappingURL=jarva.js.map
@@ -154,7 +153,7 @@ var JarvaPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NackaPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_forecast_forecast__ = __webpack_require__(166);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_forecast_forecast__ = __webpack_require__(34);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -184,10 +183,9 @@ var NackaPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-nacka',template:/*ion-inline-start:"C:\Users\Choppah\PVT15\StarGaze\src\pages\nacka\nacka.html"*/'<ion-header>\n\n    <ion-navbar>\n      <ion-title>Places</ion-title>\n    </ion-navbar>\n  \n  </ion-header>\n  \n  \n  <ion-content scroll="true" padding class="places">\n    <ion-grid>\n      <ion-row>\n        <ion-col>\n          <div text-center>\n            <h1 strong> Nackareservatet tonight</h1>\n          </div>\n          <div class="status" text-center>\n            <h5 strong>Good </h5>\n            <p>\n                <ion-icon name="star"></ion-icon>\n                <ion-icon name="star"></ion-icon>\n                <ion-icon name="star"></ion-icon>\n                <ion-icon name="star-outline"></ion-icon>\n            </p>\n            \n          </div>\n        </ion-col>\n      </ion-row>\n    \n        <ion-row class="weather-factors" text-center>\n          <ion-col col-4>\n            <ion-icon name="sunny"></ion-icon>\n           <!-- <p>Light</p> -->\n            <p>30%</p>  \n          </ion-col>\n\n          <ion-col class="thermo-col" col-4>\n            <ion-icon name="thermometer"></ion-icon>\n           <!-- <p>Temp</p> -->\n            <p>11&deg;</p>  \n          </ion-col>\n\n          <ion-col col-4>\n            <ion-icon name="cloud"></ion-icon>\n            <!-- <p>Cloudiness</p> -->\n            <p>3 km</p>  \n          </ion-col>\n        </ion-row>\n          \n    \n      <ion-row >\n        <ion-col class="forecast" >\n          <h6 strong> Forecast </h6>\n          <hr class="divider">\n          <ul>\n            <p class="alignright">Excellent</p>\n            <li>Tuesday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Good</p>\n            <li>Wednesday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Okey</p>\n            <li>Thursday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Good</p>\n            <li>Friday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Bad</p>\n            <li>Saturday</li>\n            <div style="clear: both;"></div>\n  \n          </ul>\n          \n          \n          \n        </ion-col>\n      </ion-row>\n    </ion-grid>\n  \n  \n  \n  \n  </ion-content>\n'/*ion-inline-end:"C:\Users\Choppah\PVT15\StarGaze\src\pages\nacka\nacka.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__providers_forecast_forecast__["a" /* ForecastProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__providers_forecast_forecast__["a" /* ForecastProvider */]) === "function" && _c || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_forecast_forecast__["a" /* ForecastProvider */]])
     ], NackaPage);
     return NackaPage;
-    var _a, _b, _c;
 }());
 
 //# sourceMappingURL=nacka.js.map
@@ -201,7 +199,7 @@ var NackaPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TyrestaPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_forecast_forecast__ = __webpack_require__(166);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_forecast_forecast__ = __webpack_require__(34);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -231,10 +229,9 @@ var TyrestaPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-tyresta',template:/*ion-inline-start:"C:\Users\Choppah\PVT15\StarGaze\src\pages\tyresta\tyresta.html"*/'<ion-header>\n\n    <ion-navbar>\n      <ion-title>Places</ion-title>\n    </ion-navbar>\n  \n  </ion-header>\n  \n  \n  <ion-content scroll="true" padding class="places">\n    <ion-grid>\n      <ion-row>\n        <ion-col>\n          <div text-center>\n            <h1 strong> Flatens naturreservat tonight</h1>\n          </div>\n          <div class="status" text-center>\n            <h5 strong>Good </h5>\n            <p>\n                <ion-icon name="star"></ion-icon>\n                <ion-icon name="star"></ion-icon>\n                <ion-icon name="star"></ion-icon>\n                <ion-icon name="star-outline"></ion-icon>\n            </p>\n            \n          </div>\n        </ion-col>\n      </ion-row>\n    \n        <ion-row class="weather-factors" text-center>\n          <ion-col col-4>\n            <ion-icon name="sunny"></ion-icon>\n           <!-- <p>Light</p> -->\n            <p>30%</p>  \n          </ion-col>\n\n          <ion-col class="thermo-col" col-4>\n            <ion-icon name="thermometer"></ion-icon>\n           <!-- <p>Temp</p> -->\n            <p>11&deg;</p>  \n          </ion-col>\n\n          <ion-col col-4>\n            <ion-icon name="cloud"></ion-icon>\n            <!-- <p>Cloudiness</p> -->\n            <p>3 km</p>  \n          </ion-col>\n        </ion-row>\n          \n    \n      <ion-row >\n        <ion-col class="forecast" >\n          <h6 strong> Forecast </h6>\n          <hr class="divider">\n          <ul>\n            <p class="alignright">Excellent</p>\n            <li>Tuesday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Good</p>\n            <li>Wednesday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Okey</p>\n            <li>Thursday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Good</p>\n            <li>Friday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Bad</p>\n            <li>Saturday</li>\n            <div style="clear: both;"></div>\n  \n          </ul>\n          \n          \n          \n        </ion-col>\n      </ion-row>\n    </ion-grid>\n  \n  \n  \n  \n  </ion-content>\n'/*ion-inline-end:"C:\Users\Choppah\PVT15\StarGaze\src\pages\tyresta\tyresta.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__providers_forecast_forecast__["a" /* ForecastProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__providers_forecast_forecast__["a" /* ForecastProvider */]) === "function" && _c || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_forecast_forecast__["a" /* ForecastProvider */]])
     ], TyrestaPage);
     return TyrestaPage;
-    var _a, _b, _c;
 }());
 
 //# sourceMappingURL=tyresta.js.map
@@ -248,8 +245,8 @@ var TyrestaPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MenuPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__settings_settings__ = __webpack_require__(53);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__about_about__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__settings_settings__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__about_about__ = __webpack_require__(58);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -290,7 +287,7 @@ var MenuPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 124:
+/***/ 122:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -303,11 +300,11 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 124;
+webpackEmptyAsyncContext.id = 122;
 
 /***/ }),
 
-/***/ 165:
+/***/ 164:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -367,99 +364,12 @@ function webpackAsyncContext(req) {
 webpackAsyncContext.keys = function webpackAsyncContextKeys() {
 	return Object.keys(map);
 };
-webpackAsyncContext.id = 165;
+webpackAsyncContext.id = 164;
 module.exports = webpackAsyncContext;
 
 /***/ }),
 
-/***/ 166:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ForecastProvider; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_http__ = __webpack_require__(306);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(265);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_do__ = __webpack_require__(322);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_do___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_do__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_catch__ = __webpack_require__(325);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_catch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_catch__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_Observable__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_Observable__);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-/*import { HttpClient } from '@angular/common/http';
-import { Injectable } from '@angular/core';
-import 'rxjs/add/operator/map';
-import { Http } from '@angular/http';
-
-
-@Injectable()
-export class ForecastProvider {
-url;
-
-  constructor(public http: HttpClient) {
-    console.log('Hello ForecastProvider Provider');
-    this.url = 'https://pvt.dsv.su.se/Group04/place';
-  }
-  getForecast(location) {
-    
-    return this.http.get(this.url+'/'+location+'/today')
-    
-   
-  }
-}*/
-
-
-
-
-
-
-var ForecastProvider = /** @class */ (function () {
-    //private url: string = "https://opendata-download-metfcst.smhi.se/api/category/pmp3g/version/2/geotype/point/lon/16.158/lat/58.5812/data.json";
-    function ForecastProvider(http) {
-        this.http = http;
-        this.url = "https://pvt.dsv.su.se/Group04/place";
-        console.log('Hello MessageserviceProvider Provider');
-    }
-    ForecastProvider.prototype.getForecast = function (location) {
-        return this.http.get(this.url + '/' + location + '/today')
-            .do(this.logResponse)
-            .map(this.extractData)
-            .do(this.logResponse)
-            .catch(this.catchError);
-    };
-    ForecastProvider.prototype.catchError = function (error) {
-        console.log(error);
-        return __WEBPACK_IMPORTED_MODULE_5_rxjs_Observable__["Observable"].throw(error.json().error || "Server error.");
-    };
-    ForecastProvider.prototype.logResponse = function (res) {
-        console.log(res);
-    };
-    ForecastProvider.prototype.extractData = function (res) {
-        return res.json();
-    };
-    ForecastProvider = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["A" /* Injectable */])(),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_0__angular_http__["a" /* Http */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_http__["a" /* Http */]) === "function" && _a || Object])
-    ], ForecastProvider);
-    return ForecastProvider;
-    var _a;
-}());
-
-//# sourceMappingURL=forecast.js.map
-
-/***/ }),
-
-/***/ 212:
+/***/ 211:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -504,13 +414,13 @@ var PlacesPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 213:
+/***/ 212:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(214);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(234);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(213);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(235);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -518,7 +428,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 234:
+/***/ 235:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -527,15 +437,15 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(27);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(305);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_firebase__ = __webpack_require__(169);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(306);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_firebase__ = __webpack_require__(168);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_firebase___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_firebase__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_http__ = __webpack_require__(306);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_about_about__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_http__ = __webpack_require__(165);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_about_about__ = __webpack_require__(58);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_contact_contact__ = __webpack_require__(307);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_home_home__ = __webpack_require__(308);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_tabs_tabs__ = __webpack_require__(309);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_log_in_log_in__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_log_in_log_in__ = __webpack_require__(57);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_today_today__ = __webpack_require__(43);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_menu_menu__ = __webpack_require__(113);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_gardet_gardet__ = __webpack_require__(108);
@@ -543,11 +453,11 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_nacka_nacka__ = __webpack_require__(111);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_grimsta_grimsta__ = __webpack_require__(109);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_tyresta_tyresta__ = __webpack_require__(112);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_settings_settings__ = __webpack_require__(53);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__ionic_native_facebook__ = __webpack_require__(167);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__ionic_native_status_bar__ = __webpack_require__(210);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__ionic_native_splash_screen__ = __webpack_require__(211);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__providers_forecast_forecast__ = __webpack_require__(166);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_settings_settings__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__ionic_native_facebook__ = __webpack_require__(166);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__ionic_native_status_bar__ = __webpack_require__(209);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__ionic_native_splash_screen__ = __webpack_require__(210);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__providers_forecast_forecast__ = __webpack_require__(34);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -660,19 +570,19 @@ var AppModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 305:
+/***/ 306:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(210);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(211);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(209);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(210);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_today_today__ = __webpack_require__(43);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_settings_settings__ = __webpack_require__(53);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_about_about__ = __webpack_require__(55);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_log_in_log_in__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_settings_settings__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_about_about__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_log_in_log_in__ = __webpack_require__(57);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -697,7 +607,7 @@ var MyApp = /** @class */ (function () {
         this.statusBar = statusBar;
         this.splashScreen = splashScreen;
         this.menuController = menuController;
-        this.rootPage = __WEBPACK_IMPORTED_MODULE_7__pages_log_in_log_in__["a" /* LogInPage */];
+        this.rootPage = __WEBPACK_IMPORTED_MODULE_4__pages_today_today__["a" /* TodayPage */];
         this.initializeApp();
         this.pages = [
             { title: 'Forecast', component: __WEBPACK_IMPORTED_MODULE_4__pages_today_today__["a" /* TodayPage */] },
@@ -729,15 +639,14 @@ var MyApp = /** @class */ (function () {
     };
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Nav */]),
-        __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Nav */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Nav */]) === "function" && _a || Object)
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Nav */])
     ], MyApp.prototype, "nav", void 0);
     MyApp = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Choppah\PVT15\StarGaze\src\app\app.html"*/'<ion-menu [content]="content">\n\n    <ion-header>\n\n        <ion-toolbar>\n\n            <ion-title>Menu</ion-title>\n\n        </ion-toolbar>\n\n    </ion-header>\n\n\n\n\n\n<ion-content padding class="toggle-menu">\n\n    \n\n    <ion-list padding class="lista" >\n\n        <button menuClose ion-item  *ngFor="let p of pages" [class.activeHighLight]="checkActive(p)" (click)="openPage(p)">\n\n            {{p.title}}\n\n        </button>\n\n        <div padding class="menuButton">\n\n         <button ion-button block outline color="textColor" icon-right onClick="window.open(\'https://www.facebook.com/groups/368396763650540/\', \'_system\', \'location=yes\');return false;">\n\n            Community\n\n            <ion-icon color="primary" name="logo-facebook">\n\n                \n\n            </ion-icon>\n\n        </button>\n\n        <button ion-button block outline color="textColor" icon-right (click)="logOut()">Log out</button>\n\n    </div>\n\n    </ion-list>\n\n\n\n</ion-content>\n\n\n\n\n\n</ion-menu>\n\n\n\n\n\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>\n\n'/*ion-inline-end:"C:\Users\Choppah\PVT15\StarGaze\src\app\app.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Choppah\PVT15\StarGaze\src\app\app.html"*/'<ion-menu [content]="content">\n\n    <ion-header>\n\n        <ion-toolbar>\n\n            <ion-title>Menu</ion-title>\n\n            \n\n        </ion-toolbar>\n\n    </ion-header>\n\n\n\n\n\n<ion-content padding class="toggle-menu">\n\n    \n\n    <ion-list padding class="lista" >\n\n        <button menuClose ion-item  *ngFor="let p of pages" [class.activeHighLight]="checkActive(p)" (click)="openPage(p)">\n\n            {{p.title}}\n\n        </button>\n\n        <div padding class="menuButton">\n\n         <button ion-button block outline color="textColor" icon-right onClick="window.open(\'https://www.facebook.com/groups/368396763650540/\', \'_system\', \'location=yes\');return false;">\n\n            Community\n\n            <ion-icon color="primary" name="logo-facebook">\n\n                \n\n            </ion-icon>\n\n        </button>\n\n        <button ion-button block outline color="textColor" icon-right (click)="logOut()">Log out</button>\n\n    </div>\n\n    </ion-list>\n\n\n\n</ion-content>\n\n\n\n\n\n</ion-menu>\n\n\n\n\n\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>\n\n'/*ion-inline-end:"C:\Users\Choppah\PVT15\StarGaze\src\app\app.html"*/
         }),
-        __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Platform */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Platform */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* MenuController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* MenuController */]) === "function" && _e || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* MenuController */]])
     ], MyApp);
     return MyApp;
-    var _a, _b, _c, _d, _e;
 }());
 
 //# sourceMappingURL=app.component.js.map
@@ -820,10 +729,10 @@ var HomePage = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TabsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__log_in_log_in__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__log_in_log_in__ = __webpack_require__(57);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__today_today__ = __webpack_require__(43);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__menu_menu__ = __webpack_require__(113);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__places_places__ = __webpack_require__(212);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__places_places__ = __webpack_require__(211);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -854,6 +763,92 @@ var TabsPage = /** @class */ (function () {
 }());
 
 //# sourceMappingURL=tabs.js.map
+
+/***/ }),
+
+/***/ 34:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ForecastProvider; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_http__ = __webpack_require__(165);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(260);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_do__ = __webpack_require__(261);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_do___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_do__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_catch__ = __webpack_require__(264);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_catch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_catch__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_Observable__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_Observable__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+/*import { HttpClient } from '@angular/common/http';
+import { Injectable } from '@angular/core';
+import 'rxjs/add/operator/map';
+import { Http } from '@angular/http';
+
+
+@Injectable()
+export class ForecastProvider {
+url;
+
+  constructor(public http: HttpClient) {
+    console.log('Hello ForecastProvider Provider');
+    this.url = 'https://pvt.dsv.su.se/Group04/place';
+  }
+  getForecast(location) {
+    
+    return this.http.get(this.url+'/'+location+'/today')
+    
+   
+  }
+}*/
+
+
+
+
+
+
+var ForecastProvider = /** @class */ (function () {
+    //private url: string = "https://opendata-download-metfcst.smhi.se/api/category/pmp3g/version/2/geotype/point/lon/16.158/lat/58.5812/data.json";
+    function ForecastProvider(http) {
+        this.http = http;
+        this.url = "https://pvt.dsv.su.se/Group04/place";
+        console.log('Hello MessageserviceProvider Provider');
+    }
+    ForecastProvider.prototype.getForecast = function (location) {
+        return this.http.get(this.url + '/' + location + '/today')
+            .do(this.logResponse)
+            .map(this.extractData)
+            .do(this.logResponse)
+            .catch(this.catchError);
+    };
+    ForecastProvider.prototype.catchError = function (error) {
+        console.log(error);
+        return __WEBPACK_IMPORTED_MODULE_5_rxjs_Observable__["Observable"].throw(error.json().error || "Server error.");
+    };
+    ForecastProvider.prototype.logResponse = function (res) {
+        console.log(res);
+    };
+    ForecastProvider.prototype.extractData = function (res) {
+        return res.json();
+    };
+    ForecastProvider = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["A" /* Injectable */])(),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0__angular_http__["a" /* Http */]])
+    ], ForecastProvider);
+    return ForecastProvider;
+}());
+
+//# sourceMappingURL=forecast.js.map
 
 /***/ }),
 
@@ -910,7 +905,7 @@ var TodayPage = /** @class */ (function () {
     };
     TodayPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-today',template:/*ion-inline-start:"C:\Users\Choppah\PVT15\StarGaze\src\pages\today\today.html"*/'<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>Status for tonight</ion-title>\n\n    <button ion-button menuToggle color="textColor">\n\n        <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n\n\n<ion-content scroll="true" padding class="places">\n\n    <ion-grid>\n\n      <ion-row>\n\n        <ion-col>\n\n          <div text-center>\n\n            <h1 strong> Stockholm tonight</h1>\n\n          </div>\n\n          <div class="status" text-center>\n\n            <h5 strong>Okey </h5>\n\n            <p>\n\n                <ion-icon name="star"></ion-icon>\n\n                <ion-icon name="star"></ion-icon>\n\n                <ion-icon name="star-outline"></ion-icon>\n\n                <ion-icon name="star-outline"></ion-icon>\n\n            </p>\n\n            \n\n          </div>\n\n        </ion-col>\n\n      </ion-row>\n\n    \n\n        <ion-row class="weather-factors" text-center>\n\n          <ion-col col-4>\n\n            <ion-icon name="sunny"></ion-icon>\n\n           <!-- <p>Light</p> -->\n\n            <p>30%</p>  \n\n          </ion-col>\n\n\n\n          <ion-col class="thermo-col" col-4>\n\n            <ion-icon name="thermometer"></ion-icon>\n\n           <!-- <p>Temp</p> -->\n\n            <p>11&deg;</p>  \n\n          </ion-col>\n\n\n\n          <ion-col col-4>\n\n            <ion-icon name="cloud"></ion-icon>\n\n            <!-- <p>Cloudiness</p> -->\n\n            <p>3 km</p>  \n\n          </ion-col>\n\n        </ion-row>\n\n          \n\n    \n\n    <ion-row>\n\n      <ion-col>\n\n        <h6 strong> Show forecast for... </h6> \n\n          <ul>\n\n            <li><a href="#" (click)="GardetPlaces()">Gärdet</a></li> \n\n            <li><a href="#" (click)="TyrestaPlaces()">Flatens Naturreservat</a></li>\n\n            <li><a href="#" (click)="NackaPlaces()">Nackareservatet</a></li>\n\n            <li><a href="#" (click)="GrimstaPlaces()">Grimsta</a></li>\n\n            <li><a href="#" (click)="JarvaPlaces()"> Järvafältet</a></li>\n\n          </ul>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Choppah\PVT15\StarGaze\src\pages\today\today.html"*/,
+            selector: 'page-today',template:/*ion-inline-start:"C:\Users\Choppah\PVT15\StarGaze\src\pages\today\today.html"*/'<ion-header>\n\n\n\n  <ion-navbar>\n\n    \n\n    <button ion-button menuToggle color="textColor">\n\n        <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-buttons end>\n\n    <button ion-button icon-only >\n\n        <ion-icon name="information-circle" ></ion-icon>\n\n    </button>\n\n  </ion-buttons>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n\n\n<ion-content scroll="true" padding class="places">\n\n    <ion-grid>\n\n      <ion-row>\n\n        <ion-col>\n\n          <div text-center>\n\n            <h1 strong> Stockholm tonight</h1>\n\n          </div>\n\n          <div class="status" text-center>\n\n            <h5 strong>Okey </h5>\n\n            <p>\n\n                <ion-icon name="star"></ion-icon>\n\n                <ion-icon name="star"></ion-icon>\n\n                <ion-icon name="star-outline"></ion-icon>\n\n                <ion-icon name="star-outline"></ion-icon>\n\n            </p>\n\n            \n\n          </div>\n\n        </ion-col>\n\n      </ion-row>\n\n    \n\n        <ion-row class="weather-factors" text-center>\n\n          <ion-col col-4>\n\n            <ion-icon name="sunny"></ion-icon>\n\n           <!-- <p>Light</p> -->\n\n            <p>30%</p>  \n\n          </ion-col>\n\n\n\n          <ion-col class="thermo-col" col-4>\n\n            <ion-icon name="thermometer"></ion-icon>\n\n           <!-- <p>Temp</p> -->\n\n            <p>11&deg;</p>  \n\n          </ion-col>\n\n\n\n          <ion-col col-4>\n\n            <ion-icon name="cloud"></ion-icon>\n\n            <!-- <p>Cloudiness</p> -->\n\n            <p>3 km</p>  \n\n          </ion-col>\n\n        </ion-row>\n\n          \n\n    \n\n    <ion-row>\n\n      <ion-col>\n\n        <h6 strong> Show forecast for... </h6> \n\n          <ul>\n\n            <li><a href="#" (click)="GardetPlaces()">Gärdet</a></li> \n\n            <li><a href="#" (click)="TyrestaPlaces()">Flatens Naturreservat</a></li>\n\n            <li><a href="#" (click)="NackaPlaces()">Nackareservatet</a></li>\n\n            <li><a href="#" (click)="GrimstaPlaces()">Grimsta</a></li>\n\n            <li><a href="#" (click)="JarvaPlaces()"> Järvafältet</a></li>\n\n          </ul>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Choppah\PVT15\StarGaze\src\pages\today\today.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
     ], TodayPage);
@@ -921,7 +916,7 @@ var TodayPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 53:
+/***/ 56:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -966,15 +961,15 @@ var SettingsPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 54:
+/***/ 57:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LogInPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_facebook__ = __webpack_require__(167);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_firebase__ = __webpack_require__(169);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_facebook__ = __webpack_require__(166);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_firebase__ = __webpack_require__(168);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_firebase___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_firebase__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__today_today__ = __webpack_require__(43);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -1026,7 +1021,7 @@ var LogInPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 55:
+/***/ 58:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1061,5 +1056,5 @@ var AboutPage = /** @class */ (function () {
 
 /***/ })
 
-},[213]);
+},[212]);
 //# sourceMappingURL=main.js.map

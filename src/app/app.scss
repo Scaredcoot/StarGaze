@@ -14,6 +14,10 @@
     background-position: center;
     background-size: contain;
 
+    ion-button{
+        color:color($colors, textColor);
+    }
+
  }
  .menu {
     background:color($colors, midnight);
@@ -88,10 +92,13 @@
 }
 .back-button-icon-ios {
     color:color($colors, textColor);
-  }
-  .back-button-text-ios{
+}
+.back-button-text-ios{
     color:color($colors, textColor);
-  }
+}
+.bar-button-ios{
+    color:color($colors, infoIcon);
+}
 
  
  

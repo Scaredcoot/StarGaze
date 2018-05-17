@@ -17,11 +17,13 @@ $colors: (
   dark:       #222,
   midnight:   #380b61,
   textColor:  #df7401,
+  infoIcon: rgba(216, 122, 22, 0.849),
   textBlack:  black,
   toolbarColor: #290256,
   topbarColor: #050124,
   tabColor: rgba(251, 245, 253, 0.133),
   menuColor: rgba(66, 39, 110, 0.404)
+ 
 );
 
 //-ios för iPhone & -md för Android
@@ -33,6 +35,7 @@ $tabs-ios-background:color($colors, toolbarColor);
 $tabs-ios-tab-color-active:color($colors, textColor);
 $tabs-ios-tab-text-color:color($colors, tabColor);
 */
+
 
 
 @import "ionic.theme.default";
