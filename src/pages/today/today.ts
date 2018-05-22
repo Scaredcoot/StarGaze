@@ -5,6 +5,10 @@ import { NackaPage} from '../nacka/nacka';
 import { JarvaPage} from '../jarva/jarva';
 import { GrimstaPage} from '../grimsta/grimsta';
 import { TyrestaPage} from '../tyresta/tyresta';
+import { ContactPage } from '../contact/contact';
+
+
+import { PopoverController } from 'ionic-angular';
 
 
 @IonicPage()
@@ -14,7 +18,7 @@ import { TyrestaPage} from '../tyresta/tyresta';
 })
 export class TodayPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public navParams: NavParams,  public popoverCtrl: PopoverController) {
     
   }
   GardetPlaces(){
@@ -36,5 +40,13 @@ export class TodayPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad TodayPage');
   }
-
+ /* presentPopover(myEvent){
+    let popover = this.popoverCtrl.create(ContactPage);
+    popover.present({
+      ev: myEvent
+    });
+  }*/
+  ContactPage(){
+    this.navCtrl.push(ContactPage);
+  }
 }

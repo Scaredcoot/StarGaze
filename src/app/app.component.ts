@@ -2,7 +2,8 @@ import { Component, ViewChild } from '@angular/core';
 import { Nav, Platform } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
-import { MenuController } from 'ionic-angular'
+import { MenuController } from 'ionic-angular';
+
 
 import { TodayPage } from '../pages/today/today';
 import { SettingsPage } from '../pages/settings/settings';
@@ -55,5 +56,6 @@ logOut(){
   this.nav.setRoot(LogInPage);
   this.menuController.close();
 }
+
 
 }

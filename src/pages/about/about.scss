@@ -1,5 +1,32 @@
 page-about {
     .help-icon {
-        font-size: 50px;
+        font-size: 35px;
+        color: color($colors, textColor);
+        text-align: center;
+
+        ion-icon {
+            float: right;
+           }
+       
     }
-}
+    .help-text {
+        color: color($colors, textColor);
+        font-size: 20px;
+        font-family: sans-serif;
+             
+    }
+    a {
+        color: color($colors, light);
+    //    text-decoration:        
+        &:hover {
+            color: color($colors, textColor);
+        }
+    }
+    
+   
+    .about-text {
+        margin-top: 75px;
+        color: color($colors, textColor);
+        }
+    
+        }

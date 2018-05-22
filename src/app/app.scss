@@ -17,6 +17,7 @@
     ion-button{
         color:color($colors, textColor);
     }
+    
 
  }
  .menu {
@@ -60,6 +61,15 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;    
+ }
+ .contact {
+    background:color($colors, midnight);
+    color:color($colors, textColor);
+    background-image: url('../assets/imgs/today_1024.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ 
  }
  /*
  .tabs-ios .tab-button-icon {

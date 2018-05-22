@@ -37,7 +37,7 @@ var GardetPage = /** @class */ (function () {
     };
     GardetPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-gardet',template:/*ion-inline-start:"C:\Users\Choppah\PVT15\StarGaze\src\pages\gardet\gardet.html"*/'<ion-header>\n\n\n\n    <ion-navbar>\n\n      \n\n      <ion-title>Places</ion-title>\n\n    </ion-navbar>\n\n  \n\n  </ion-header>\n\n  \n\n  \n\n  <ion-content padding class="places">\n\n    <ion-grid>\n\n      <ion-row>\n\n        <ion-col>\n\n          <div text-center>\n\n            <h1 strong> Gärdet tonight</h1>\n\n          </div>\n\n          <div class="status" text-center>\n\n            <h5 strong>Good </h5>\n\n            <p>\n\n                <ion-icon name="star"></ion-icon>\n\n                <ion-icon name="star"></ion-icon>\n\n                <ion-icon name="star"></ion-icon>\n\n                <ion-icon name="star-outline"></ion-icon>\n\n            </p>\n\n            \n\n          </div>\n\n        </ion-col>\n\n      </ion-row>\n\n    \n\n        <ion-row class="weather-factors" text-center>\n\n          <ion-col col-4>\n\n            <ion-icon name="sunny"></ion-icon>\n\n           <!-- <p>Light</p> -->\n\n            <p>30%</p>  \n\n          </ion-col>\n\n\n\n          <ion-col class="thermo-col" col-4>\n\n            <ion-icon name="thermometer"></ion-icon>\n\n           <!-- <p>Temp</p> -->\n\n            <p>11&deg;</p>  \n\n          </ion-col>\n\n\n\n          <ion-col col-4>\n\n            <ion-icon name="cloud"></ion-icon>\n\n            <!-- <p>Cloudiness</p> -->\n\n            <p>3 km</p>  \n\n          </ion-col>\n\n        </ion-row>\n\n          \n\n    \n\n      <ion-row >\n\n        <ion-col class="forecast" >\n\n          <h6 strong> Forecast </h6>\n\n          <hr class="divider">\n\n          <ul>\n\n            <p class="alignright">Excellent</p>\n\n            <li>Tuesday</li>\n\n            <div style="clear: both;"></div>\n\n            <p class="alignright">Good</p>\n\n            <li>Wednesday</li>\n\n            <div style="clear: both;"></div>\n\n            <p class="alignright">Okey</p>\n\n            <li>Thursday</li>\n\n            <div style="clear: both;"></div>\n\n            <p class="alignright">Good</p>\n\n            <li>Friday</li>\n\n            <div style="clear: both;"></div>\n\n            <p class="alignright">Bad</p>\n\n            <li>Saturday</li>\n\n            <div style="clear: both;"></div>\n\n  \n\n          </ul>\n\n          \n\n          \n\n          \n\n        </ion-col>\n\n      </ion-row>\n\n    </ion-grid>\n\n  \n\n  \n\n  \n\n  \n\n  </ion-content>\n\n'/*ion-inline-end:"C:\Users\Choppah\PVT15\StarGaze\src\pages\gardet\gardet.html"*/,
+            selector: 'page-gardet',template:/*ion-inline-start:"C:\Users\Choppah\PVT15\StarGaze\src\pages\gardet\gardet.html"*/'<ion-header>\n\n\n\n    <ion-navbar>\n\n      \n\n      <ion-title>Places</ion-title>\n\n    </ion-navbar>\n\n  \n\n  </ion-header>\n\n  \n\n  \n\n  <ion-content padding class="places">\n\n    <ion-grid>\n\n      <ion-row>\n\n        <ion-col>\n\n          <div text-center>\n\n            <h1 strong> Gärdet tonight</h1>\n\n          </div>\n\n          <div class="status" text-center>\n\n            <h5 strong>Good </h5>\n\n            <p>\n\n                <ion-icon name="star"></ion-icon>\n\n                <ion-icon name="star"></ion-icon>\n\n                <ion-icon name="star"></ion-icon>\n\n                <ion-icon name="star-outline"></ion-icon>\n\n            </p>\n\n            \n\n          </div>\n\n        </ion-col>\n\n      </ion-row>\n\n    \n\n        <ion-row class="weather-factors" text-center>\n\n          <ion-col col-4>\n\n            <ion-icon name="ios-water"></ion-icon>\n\n           <!-- <p>Light</p> -->\n\n            <p>30%</p>  \n\n          </ion-col>\n\n\n\n          <ion-col class="thermo-col" col-4>\n\n            <ion-icon name="thermometer"></ion-icon>\n\n           <!-- <p>Temp</p> -->\n\n            <p>11&deg;</p>  \n\n          </ion-col>\n\n\n\n          <ion-col col-4>\n\n            <ion-icon name="cloudy-night"></ion-icon>\n\n            <!-- <p>Cloudiness</p> -->\n\n            <p>3 km</p>  \n\n          </ion-col>\n\n        </ion-row>\n\n          \n\n    \n\n      <ion-row >\n\n        <ion-col class="forecast" >\n\n          <h6 strong> Forecast </h6>\n\n          <hr class="divider">\n\n          <ul>\n\n            <p class="alignright">Excellent</p>\n\n            <li>Tuesday</li>\n\n            <div style="clear: both;"></div>\n\n            <p class="alignright">Good</p>\n\n            <li>Wednesday</li>\n\n            <div style="clear: both;"></div>\n\n            <p class="alignright">Okey</p>\n\n            <li>Thursday</li>\n\n            <div style="clear: both;"></div>\n\n            <p class="alignright">Good</p>\n\n            <li>Friday</li>\n\n            <div style="clear: both;"></div>\n\n            <p class="alignright">Bad</p>\n\n            <li>Saturday</li>\n\n            <div style="clear: both;"></div>\n\n  \n\n          </ul>\n\n          \n\n          \n\n          \n\n        </ion-col>\n\n      </ion-row>\n\n    </ion-grid>\n\n  \n\n  \n\n  \n\n  \n\n  </ion-content>\n\n'/*ion-inline-end:"C:\Users\Choppah\PVT15\StarGaze\src\pages\gardet\gardet.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_forecast_forecast__["a" /* ForecastProvider */]])
     ], GardetPage);
@@ -89,7 +89,7 @@ var GrimstaPage = /** @class */ (function () {
     };
     GrimstaPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-grimsta',template:/*ion-inline-start:"C:\Users\Choppah\PVT15\StarGaze\src\pages\grimsta\grimsta.html"*/'<ion-header>\n\n    <ion-navbar>\n      <ion-title>Places</ion-title>\n    </ion-navbar>\n  \n  </ion-header>\n  \n  \n  <ion-content scroll="true" padding class="places">\n    <ion-grid>\n      <ion-row>\n        <ion-col>\n          <div text-center>\n            <h1 strong> Grimsta tonight</h1>\n          </div>\n          <div class="status" text-center>\n            <h5 strong>Good </h5>\n            <p>\n                <ion-icon name="star"></ion-icon>\n                <ion-icon name="star"></ion-icon>\n                <ion-icon name="star"></ion-icon>\n                <ion-icon name="star-outline"></ion-icon>\n            </p>\n            \n          </div>\n        </ion-col>\n      </ion-row>\n    \n        <ion-row class="weather-factors" text-center>\n          <ion-col col-4>\n            <ion-icon name="sunny"></ion-icon>\n           <!-- <p>Light</p> -->\n            <p>30%</p>  \n          </ion-col>\n\n          <ion-col class="thermo-col" col-4>\n            <ion-icon name="thermometer"></ion-icon>\n           <!-- <p>Temp</p> -->\n            <p>11&deg;</p>  \n          </ion-col>\n\n          <ion-col col-4>\n            <ion-icon name="cloud"></ion-icon>\n            <!-- <p>Cloudiness</p> -->\n            <p>3 km</p>  \n          </ion-col>\n        </ion-row>\n          \n    \n      <ion-row >\n        <ion-col class="forecast" >\n          <h6 strong> Forecast </h6>\n          <hr class="divider">\n          <ul>\n            <p class="alignright">Excellent</p>\n            <li>Tuesday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Good</p>\n            <li>Wednesday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Okey</p>\n            <li>Thursday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Good</p>\n            <li>Friday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Bad</p>\n            <li>Saturday</li>\n            <div style="clear: both;"></div>\n  \n          </ul>\n          \n          \n          \n        </ion-col>\n      </ion-row>\n    </ion-grid>\n  \n  \n  \n  \n  </ion-content>\n'/*ion-inline-end:"C:\Users\Choppah\PVT15\StarGaze\src\pages\grimsta\grimsta.html"*/,
+            selector: 'page-grimsta',template:/*ion-inline-start:"C:\Users\Choppah\PVT15\StarGaze\src\pages\grimsta\grimsta.html"*/'<ion-header>\n\n    <ion-navbar>\n      <ion-title>Places</ion-title>\n    </ion-navbar>\n  \n  </ion-header>\n  \n  \n  <ion-content scroll="true" padding class="places">\n    <ion-grid>\n      <ion-row>\n        <ion-col>\n          <div text-center>\n            <h1 strong> Grimsta tonight</h1>\n          </div>\n          <div class="status" text-center>\n            <h5 strong>Good </h5>\n            <p>\n                <ion-icon name="star"></ion-icon>\n                <ion-icon name="star"></ion-icon>\n                <ion-icon name="star"></ion-icon>\n                <ion-icon name="star-outline"></ion-icon>\n            </p>\n            \n          </div>\n        </ion-col>\n      </ion-row>\n    \n        <ion-row class="weather-factors" text-center>\n          <ion-col col-4>\n            <ion-icon name="ios-water"></ion-icon>\n           <!-- <p>Light</p> -->\n            <p>30%</p>  \n          </ion-col>\n\n          <ion-col class="thermo-col" col-4>\n            <ion-icon name="thermometer"></ion-icon>\n           <!-- <p>Temp</p> -->\n            <p>11&deg;</p>  \n          </ion-col>\n\n          <ion-col col-4>\n            <ion-icon name="cloudy-night"></ion-icon>\n            <!-- <p>Cloudiness</p> -->\n            <p>3 km</p>  \n          </ion-col>\n        </ion-row>\n          \n    \n      <ion-row >\n        <ion-col class="forecast" >\n          <h6 strong> Forecast </h6>\n          <hr class="divider">\n          <ul>\n            <p class="alignright">Excellent</p>\n            <li>Tuesday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Good</p>\n            <li>Wednesday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Okey</p>\n            <li>Thursday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Good</p>\n            <li>Friday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Bad</p>\n            <li>Saturday</li>\n            <div style="clear: both;"></div>\n  \n          </ul>\n          \n          \n          \n        </ion-col>\n      </ion-row>\n    </ion-grid>\n  \n  \n  \n  \n  </ion-content>\n'/*ion-inline-end:"C:\Users\Choppah\PVT15\StarGaze\src\pages\grimsta\grimsta.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_forecast_forecast__["a" /* ForecastProvider */]])
     ], GrimstaPage);
@@ -135,7 +135,7 @@ var JarvaPage = /** @class */ (function () {
     };
     JarvaPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-jarva',template:/*ion-inline-start:"C:\Users\Choppah\PVT15\StarGaze\src\pages\jarva\jarva.html"*/'<ion-header>\n\n    <ion-navbar>\n      <ion-title>Places</ion-title>\n    </ion-navbar>\n  \n  </ion-header>\n  \n  \n  <ion-content scroll="true" padding class="places">\n    <ion-grid>\n      <ion-row>\n        <ion-col>\n          <div text-center>\n            <h1 strong> Järvafältet tonight</h1>\n          </div>\n          <div class="status" text-center>\n            <h5 strong>Good </h5>\n            <p>\n                <ion-icon name="star"></ion-icon>\n                <ion-icon name="star"></ion-icon>\n                <ion-icon name="star"></ion-icon>\n                <ion-icon name="star-outline"></ion-icon>\n            </p>\n            \n          </div>\n        </ion-col>\n      </ion-row>\n    \n        <ion-row class="weather-factors" text-center>\n          <ion-col col-4>\n            <ion-icon name="sunny"></ion-icon>\n           <!-- <p>Light</p> -->\n            <p>30%</p>  \n          </ion-col>\n\n          <ion-col class="thermo-col" col-4>\n            <ion-icon name="thermometer"></ion-icon>\n           <!-- <p>Temp</p> -->\n            <p>11&deg;</p>  \n          </ion-col>\n\n          <ion-col col-4>\n            <ion-icon name="cloud"></ion-icon>\n            <!-- <p>Cloudiness</p> -->\n            <p>3 km</p>  \n          </ion-col>\n        </ion-row>\n          \n    \n      <ion-row >\n        <ion-col class="forecast" >\n          <h6 strong> Forecast </h6>\n          <hr class="divider">\n          <ul>\n            <p class="alignright">Excellent</p>\n            <li>Tuesday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Good</p>\n            <li>Wednesday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Okey</p>\n            <li>Thursday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Good</p>\n            <li>Friday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Bad</p>\n            <li>Saturday</li>\n            <div style="clear: both;"></div>\n  \n          </ul>\n          \n          \n          \n        </ion-col>\n      </ion-row>\n    </ion-grid>\n  \n  \n  \n  \n  </ion-content>\n'/*ion-inline-end:"C:\Users\Choppah\PVT15\StarGaze\src\pages\jarva\jarva.html"*/,
+            selector: 'page-jarva',template:/*ion-inline-start:"C:\Users\Choppah\PVT15\StarGaze\src\pages\jarva\jarva.html"*/'<ion-header>\n\n    <ion-navbar>\n      <ion-title>Places</ion-title>\n    </ion-navbar>\n  \n  </ion-header>\n  \n  \n  <ion-content scroll="true" padding class="places">\n    <ion-grid>\n      <ion-row>\n        <ion-col>\n          <div text-center>\n            <h1 strong> Järvafältet tonight</h1>\n          </div>\n          <div class="status" text-center>\n            <h5 strong>Good </h5>\n            <p>\n                <ion-icon name="star"></ion-icon>\n                <ion-icon name="star"></ion-icon>\n                <ion-icon name="star"></ion-icon>\n                <ion-icon name="star-outline"></ion-icon>\n            </p>\n            \n          </div>\n        </ion-col>\n      </ion-row>\n    \n        <ion-row class="weather-factors" text-center>\n          <ion-col col-4>\n            <ion-icon name="ios-water"></ion-icon>\n           <!-- <p>Light</p> -->\n            <p>30%</p>  \n          </ion-col>\n\n          <ion-col class="thermo-col" col-4>\n            <ion-icon name="thermometer"></ion-icon>\n           <!-- <p>Temp</p> -->\n            <p>11&deg;</p>  \n          </ion-col>\n\n          <ion-col col-4>\n            <ion-icon name="cloudy-night"></ion-icon>\n            <!-- <p>Cloudiness</p> -->\n            <p>3 km</p>  \n          </ion-col>\n        </ion-row>\n          \n    \n      <ion-row >\n        <ion-col class="forecast" >\n          <h6 strong> Forecast </h6>\n          <hr class="divider">\n          <ul>\n            <p class="alignright">Excellent</p>\n            <li>Tuesday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Good</p>\n            <li>Wednesday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Okey</p>\n            <li>Thursday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Good</p>\n            <li>Friday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Bad</p>\n            <li>Saturday</li>\n            <div style="clear: both;"></div>\n  \n          </ul>\n          \n          \n          \n        </ion-col>\n      </ion-row>\n    </ion-grid>\n  \n  \n  \n  \n  </ion-content>\n'/*ion-inline-end:"C:\Users\Choppah\PVT15\StarGaze\src\pages\jarva\jarva.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_forecast_forecast__["a" /* ForecastProvider */]])
     ], JarvaPage);
@@ -181,7 +181,7 @@ var NackaPage = /** @class */ (function () {
     };
     NackaPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-nacka',template:/*ion-inline-start:"C:\Users\Choppah\PVT15\StarGaze\src\pages\nacka\nacka.html"*/'<ion-header>\n\n    <ion-navbar>\n      <ion-title>Places</ion-title>\n    </ion-navbar>\n  \n  </ion-header>\n  \n  \n  <ion-content scroll="true" padding class="places">\n    <ion-grid>\n      <ion-row>\n        <ion-col>\n          <div text-center>\n            <h1 strong> Nackareservatet tonight</h1>\n          </div>\n          <div class="status" text-center>\n            <h5 strong>Good </h5>\n            <p>\n                <ion-icon name="star"></ion-icon>\n                <ion-icon name="star"></ion-icon>\n                <ion-icon name="star"></ion-icon>\n                <ion-icon name="star-outline"></ion-icon>\n            </p>\n            \n          </div>\n        </ion-col>\n      </ion-row>\n    \n        <ion-row class="weather-factors" text-center>\n          <ion-col col-4>\n            <ion-icon name="sunny"></ion-icon>\n           <!-- <p>Light</p> -->\n            <p>30%</p>  \n          </ion-col>\n\n          <ion-col class="thermo-col" col-4>\n            <ion-icon name="thermometer"></ion-icon>\n           <!-- <p>Temp</p> -->\n            <p>11&deg;</p>  \n          </ion-col>\n\n          <ion-col col-4>\n            <ion-icon name="cloud"></ion-icon>\n            <!-- <p>Cloudiness</p> -->\n            <p>3 km</p>  \n          </ion-col>\n        </ion-row>\n          \n    \n      <ion-row >\n        <ion-col class="forecast" >\n          <h6 strong> Forecast </h6>\n          <hr class="divider">\n          <ul>\n            <p class="alignright">Excellent</p>\n            <li>Tuesday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Good</p>\n            <li>Wednesday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Okey</p>\n            <li>Thursday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Good</p>\n            <li>Friday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Bad</p>\n            <li>Saturday</li>\n            <div style="clear: both;"></div>\n  \n          </ul>\n          \n          \n          \n        </ion-col>\n      </ion-row>\n    </ion-grid>\n  \n  \n  \n  \n  </ion-content>\n'/*ion-inline-end:"C:\Users\Choppah\PVT15\StarGaze\src\pages\nacka\nacka.html"*/,
+            selector: 'page-nacka',template:/*ion-inline-start:"C:\Users\Choppah\PVT15\StarGaze\src\pages\nacka\nacka.html"*/'<ion-header>\n\n    <ion-navbar>\n      <ion-title>Places</ion-title>\n    </ion-navbar>\n  \n  </ion-header>\n  \n  \n  <ion-content scroll="true" padding class="places">\n    <ion-grid>\n      <ion-row>\n        <ion-col>\n          <div text-center>\n            <h1 strong> Nackareservatet tonight</h1>\n          </div>\n          <div class="status" text-center>\n            <h5 strong>Good </h5>\n            <p>\n                <ion-icon name="star"></ion-icon>\n                <ion-icon name="star"></ion-icon>\n                <ion-icon name="star"></ion-icon>\n                <ion-icon name="star-outline"></ion-icon>\n            </p>\n            \n          </div>\n        </ion-col>\n      </ion-row>\n    \n        <ion-row class="weather-factors" text-center>\n          <ion-col col-4>\n            <ion-icon name="ios-water"></ion-icon>\n           <!-- <p>Light</p> -->\n            <p>30%</p>  \n          </ion-col>\n\n          <ion-col class="thermo-col" col-4>\n            <ion-icon name="thermometer"></ion-icon>\n           <!-- <p>Temp</p> -->\n            <p>11&deg;</p>  \n          </ion-col>\n\n          <ion-col col-4>\n            <ion-icon name="cloudy-night"></ion-icon>\n            <!-- <p>Cloudiness</p> -->\n            <p>3 km</p>  \n          </ion-col>\n        </ion-row>\n          \n    \n      <ion-row >\n        <ion-col class="forecast" >\n          <h6 strong> Forecast </h6>\n          <hr class="divider">\n          <ul>\n            <p class="alignright">Excellent</p>\n            <li>Tuesday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Good</p>\n            <li>Wednesday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Okey</p>\n            <li>Thursday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Good</p>\n            <li>Friday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Bad</p>\n            <li>Saturday</li>\n            <div style="clear: both;"></div>\n  \n          </ul>\n          \n          \n          \n        </ion-col>\n      </ion-row>\n    </ion-grid>\n  \n  \n  \n  \n  </ion-content>\n'/*ion-inline-end:"C:\Users\Choppah\PVT15\StarGaze\src\pages\nacka\nacka.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_forecast_forecast__["a" /* ForecastProvider */]])
     ], NackaPage);
@@ -227,7 +227,7 @@ var TyrestaPage = /** @class */ (function () {
     };
     TyrestaPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-tyresta',template:/*ion-inline-start:"C:\Users\Choppah\PVT15\StarGaze\src\pages\tyresta\tyresta.html"*/'<ion-header>\n\n    <ion-navbar>\n      <ion-title>Places</ion-title>\n    </ion-navbar>\n  \n  </ion-header>\n  \n  \n  <ion-content scroll="true" padding class="places">\n    <ion-grid>\n      <ion-row>\n        <ion-col>\n          <div text-center>\n            <h1 strong> Flatens naturreservat tonight</h1>\n          </div>\n          <div class="status" text-center>\n            <h5 strong>Good </h5>\n            <p>\n                <ion-icon name="star"></ion-icon>\n                <ion-icon name="star"></ion-icon>\n                <ion-icon name="star"></ion-icon>\n                <ion-icon name="star-outline"></ion-icon>\n            </p>\n            \n          </div>\n        </ion-col>\n      </ion-row>\n    \n        <ion-row class="weather-factors" text-center>\n          <ion-col col-4>\n            <ion-icon name="sunny"></ion-icon>\n           <!-- <p>Light</p> -->\n            <p>30%</p>  \n          </ion-col>\n\n          <ion-col class="thermo-col" col-4>\n            <ion-icon name="thermometer"></ion-icon>\n           <!-- <p>Temp</p> -->\n            <p>11&deg;</p>  \n          </ion-col>\n\n          <ion-col col-4>\n            <ion-icon name="cloud"></ion-icon>\n            <!-- <p>Cloudiness</p> -->\n            <p>3 km</p>  \n          </ion-col>\n        </ion-row>\n          \n    \n      <ion-row >\n        <ion-col class="forecast" >\n          <h6 strong> Forecast </h6>\n          <hr class="divider">\n          <ul>\n            <p class="alignright">Excellent</p>\n            <li>Tuesday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Good</p>\n            <li>Wednesday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Okey</p>\n            <li>Thursday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Good</p>\n            <li>Friday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Bad</p>\n            <li>Saturday</li>\n            <div style="clear: both;"></div>\n  \n          </ul>\n          \n          \n          \n        </ion-col>\n      </ion-row>\n    </ion-grid>\n  \n  \n  \n  \n  </ion-content>\n'/*ion-inline-end:"C:\Users\Choppah\PVT15\StarGaze\src\pages\tyresta\tyresta.html"*/,
+            selector: 'page-tyresta',template:/*ion-inline-start:"C:\Users\Choppah\PVT15\StarGaze\src\pages\tyresta\tyresta.html"*/'<ion-header>\n\n    <ion-navbar>\n      <ion-title>Places</ion-title>\n    </ion-navbar>\n  \n  </ion-header>\n  \n  \n  <ion-content scroll="true" padding class="places">\n    <ion-grid>\n      <ion-row>\n        <ion-col>\n          <div text-center>\n            <h1 strong> Flatens naturreservat tonight</h1>\n          </div>\n          <div class="status" text-center>\n            <h5 strong>Good </h5>\n            <p>\n                <ion-icon name="star"></ion-icon>\n                <ion-icon name="star"></ion-icon>\n                <ion-icon name="star"></ion-icon>\n                <ion-icon name="star-outline"></ion-icon>\n            </p>\n            \n          </div>\n        </ion-col>\n      </ion-row>\n    \n        <ion-row class="weather-factors" text-center>\n          <ion-col col-4>\n            <ion-icon name="ios-water"></ion-icon>\n           <!-- <p>Light</p> -->\n            <p>30%</p>  \n          </ion-col>\n\n          <ion-col class="thermo-col" col-4>\n            <ion-icon name="thermometer"></ion-icon>\n           <!-- <p>Temp</p> -->\n            <p>11&deg;</p>  \n          </ion-col>\n\n          <ion-col col-4>\n            <ion-icon name="cloudy-night"></ion-icon>\n            <!-- <p>Cloudiness</p> -->\n            <p>3 km</p>  \n          </ion-col>\n        </ion-row>\n          \n    \n      <ion-row >\n        <ion-col class="forecast" >\n          <h6 strong> Forecast </h6>\n          <hr class="divider">\n          <ul>\n            <p class="alignright">Excellent</p>\n            <li>Tuesday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Good</p>\n            <li>Wednesday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Okey</p>\n            <li>Thursday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Good</p>\n            <li>Friday</li>\n            <div style="clear: both;"></div>\n            <p class="alignright">Bad</p>\n            <li>Saturday</li>\n            <div style="clear: both;"></div>\n  \n          </ul>\n          \n          \n          \n        </ion-col>\n      </ion-row>\n    </ion-grid>\n  \n  \n  \n  \n  </ion-content>\n'/*ion-inline-end:"C:\Users\Choppah\PVT15\StarGaze\src\pages\tyresta\tyresta.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_forecast_forecast__["a" /* ForecastProvider */]])
     ], TyrestaPage);
@@ -369,7 +369,42 @@ module.exports = webpackAsyncContext;
 
 /***/ }),
 
-/***/ 211:
+/***/ 170:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ContactPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var ContactPage = /** @class */ (function () {
+    function ContactPage(navCtrl) {
+        this.navCtrl = navCtrl;
+    }
+    ContactPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-contact',template:/*ion-inline-start:"C:\Users\Choppah\PVT15\StarGaze\src\pages\contact\contact.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title>\n\n      Information\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding class="contact">\n\n    <ion-row>\n\n        <ion-col>\n\n          <div text-center>\n\n          <h4 strong> The meaning of the icons </h4> \n\n           </div>\n\n            <ul>\n\n              <li><ion-icon name="ios-water"></ion-icon>\n\n              <p class="alignright">Estimated precipitation. Precipitation like rainfall or snowfall stops you from stargazing.</p></li> \n\n              <li><ion-icon name="thermometer"></ion-icon><p class="alignright">Estimated temperature. The lower the better!</p></li> \n\n              <li><ion-icon name="cloudy-night"></ion-icon>\n\n               <p class="alignright">Estimated cloudiness. Clouds are your enemy!\n\n                Our calculation is based on four different cloud factors, including altitude, density, transparency and classification.</p></li> \n\n            </ul>\n\n            <div text-center padding class="text2">\n\n            <h5 strong> We also calculate the stargazing status based on this factor: </h5> \n\n          </div>\n\n            <ul>\n\n              <li><ion-icon name="bulb"></ion-icon></li>\n\n              <p class="alignright">\n\n                  The number of luminous sources nearby and snow/rain on the ground that reflects light. This prevents the eye to catch the stars.\n\n              </p>\n\n            </ul>\n\n        </ion-col>\n\n      </ion-row>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Choppah\PVT15\StarGaze\src\pages\contact\contact.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */]])
+    ], ContactPage);
+    return ContactPage;
+}());
+
+//# sourceMappingURL=contact.js.map
+
+/***/ }),
+
+/***/ 212:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -414,13 +449,13 @@ var PlacesPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 212:
+/***/ 213:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(213);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(235);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(214);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(236);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -428,7 +463,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 235:
+/***/ 236:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -437,12 +472,12 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(27);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(306);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(307);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_firebase__ = __webpack_require__(168);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_firebase___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_firebase__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_http__ = __webpack_require__(165);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_about_about__ = __webpack_require__(58);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_contact_contact__ = __webpack_require__(307);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_contact_contact__ = __webpack_require__(170);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_home_home__ = __webpack_require__(308);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_tabs_tabs__ = __webpack_require__(309);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_log_in_log_in__ = __webpack_require__(57);
@@ -455,8 +490,8 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_tyresta_tyresta__ = __webpack_require__(112);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_settings_settings__ = __webpack_require__(56);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__ionic_native_facebook__ = __webpack_require__(166);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__ionic_native_status_bar__ = __webpack_require__(209);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__ionic_native_splash_screen__ = __webpack_require__(210);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__ionic_native_status_bar__ = __webpack_require__(210);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__ionic_native_splash_screen__ = __webpack_require__(211);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__providers_forecast_forecast__ = __webpack_require__(34);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -570,15 +605,15 @@ var AppModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 306:
+/***/ 307:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(209);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(210);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(210);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(211);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_today_today__ = __webpack_require__(43);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_settings_settings__ = __webpack_require__(56);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_about_about__ = __webpack_require__(58);
@@ -653,41 +688,6 @@ var MyApp = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 307:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ContactPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-var ContactPage = /** @class */ (function () {
-    function ContactPage(navCtrl) {
-        this.navCtrl = navCtrl;
-    }
-    ContactPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-contact',template:/*ion-inline-start:"C:\Users\Choppah\PVT15\StarGaze\src\pages\contact\contact.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title>\n\n      Contact\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n  <ion-list>\n\n    <ion-list-header>Follow us on Twitter</ion-list-header>\n\n    <ion-item>\n\n      <ion-icon name="ionic" item-start></ion-icon>\n\n      @ionicframework\n\n    </ion-item>\n\n  </ion-list>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Choppah\PVT15\StarGaze\src\pages\contact\contact.html"*/
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */]])
-    ], ContactPage);
-    return ContactPage;
-}());
-
-//# sourceMappingURL=contact.js.map
-
-/***/ }),
-
 /***/ 308:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -732,7 +732,7 @@ var HomePage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__log_in_log_in__ = __webpack_require__(57);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__today_today__ = __webpack_require__(43);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__menu_menu__ = __webpack_require__(113);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__places_places__ = __webpack_require__(211);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__places_places__ = __webpack_require__(212);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -773,11 +773,11 @@ var TabsPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ForecastProvider; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_http__ = __webpack_require__(165);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(260);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(261);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_do__ = __webpack_require__(261);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_do__ = __webpack_require__(262);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_do___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_do__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_catch__ = __webpack_require__(264);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_catch__ = __webpack_require__(265);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_catch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_catch__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_Observable__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_Observable__);
@@ -864,6 +864,7 @@ var ForecastProvider = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__jarva_jarva__ = __webpack_require__(110);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__grimsta_grimsta__ = __webpack_require__(109);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__tyresta_tyresta__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__contact_contact__ = __webpack_require__(170);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -880,10 +881,13 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
+
 var TodayPage = /** @class */ (function () {
-    function TodayPage(navCtrl, navParams) {
+    function TodayPage(navCtrl, navParams, popoverCtrl) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
+        this.popoverCtrl = popoverCtrl;
     }
     TodayPage.prototype.GardetPlaces = function () {
         this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__gardet_gardet__["a" /* GardetPage */]);
@@ -903,11 +907,20 @@ var TodayPage = /** @class */ (function () {
     TodayPage.prototype.ionViewDidLoad = function () {
         console.log('ionViewDidLoad TodayPage');
     };
+    /* presentPopover(myEvent){
+       let popover = this.popoverCtrl.create(ContactPage);
+       popover.present({
+         ev: myEvent
+       });
+     }*/
+    TodayPage.prototype.ContactPage = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_7__contact_contact__["a" /* ContactPage */]);
+    };
     TodayPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-today',template:/*ion-inline-start:"C:\Users\Choppah\PVT15\StarGaze\src\pages\today\today.html"*/'<ion-header>\n\n\n\n  <ion-navbar>\n\n    \n\n    <button ion-button menuToggle color="textColor">\n\n        <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-buttons end>\n\n    <button ion-button icon-only >\n\n        <ion-icon name="information-circle" ></ion-icon>\n\n    </button>\n\n  </ion-buttons>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n\n\n<ion-content scroll="true" padding class="places">\n\n    <ion-grid>\n\n      <ion-row>\n\n        <ion-col>\n\n          <div text-center>\n\n            <h1 strong> Stockholm tonight</h1>\n\n          </div>\n\n          <div class="status" text-center>\n\n            <h5 strong>Okey </h5>\n\n            <p>\n\n                <ion-icon name="star"></ion-icon>\n\n                <ion-icon name="star"></ion-icon>\n\n                <ion-icon name="star-outline"></ion-icon>\n\n                <ion-icon name="star-outline"></ion-icon>\n\n            </p>\n\n            \n\n          </div>\n\n        </ion-col>\n\n      </ion-row>\n\n    \n\n        <ion-row class="weather-factors" text-center>\n\n          <ion-col col-4>\n\n            <ion-icon name="sunny"></ion-icon>\n\n           <!-- <p>Light</p> -->\n\n            <p>30%</p>  \n\n          </ion-col>\n\n\n\n          <ion-col class="thermo-col" col-4>\n\n            <ion-icon name="thermometer"></ion-icon>\n\n           <!-- <p>Temp</p> -->\n\n            <p>11&deg;</p>  \n\n          </ion-col>\n\n\n\n          <ion-col col-4>\n\n            <ion-icon name="cloud"></ion-icon>\n\n            <!-- <p>Cloudiness</p> -->\n\n            <p>3 km</p>  \n\n          </ion-col>\n\n        </ion-row>\n\n          \n\n    \n\n    <ion-row>\n\n      <ion-col>\n\n        <h6 strong> Show forecast for... </h6> \n\n          <ul>\n\n            <li><a href="#" (click)="GardetPlaces()">Gärdet</a></li> \n\n            <li><a href="#" (click)="TyrestaPlaces()">Flatens Naturreservat</a></li>\n\n            <li><a href="#" (click)="NackaPlaces()">Nackareservatet</a></li>\n\n            <li><a href="#" (click)="GrimstaPlaces()">Grimsta</a></li>\n\n            <li><a href="#" (click)="JarvaPlaces()"> Järvafältet</a></li>\n\n          </ul>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Choppah\PVT15\StarGaze\src\pages\today\today.html"*/,
+            selector: 'page-today',template:/*ion-inline-start:"C:\Users\Choppah\PVT15\StarGaze\src\pages\today\today.html"*/'<ion-header>\n\n\n\n  <ion-navbar>\n\n    \n\n    <button ion-button menuToggle color="textColor">\n\n        <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-buttons end>\n\n    <button ion-button icon-only (click)="ContactPage()">\n\n        <ion-icon name="information-circle" ></ion-icon>\n\n    </button>\n\n  </ion-buttons>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n\n\n<ion-content scroll="true" padding class="places">\n\n    <ion-grid>\n\n      <ion-row>\n\n        <ion-col>\n\n          <div text-center>\n\n            <h1 strong> Stockholm tonight</h1>\n\n          </div>\n\n          <div class="status" text-center>\n\n            <h5 strong>Okey </h5>\n\n            <p>\n\n                <ion-icon name="star"></ion-icon>\n\n                <ion-icon name="star"></ion-icon>\n\n                <ion-icon name="star-outline"></ion-icon>\n\n                <ion-icon name="star-outline"></ion-icon>\n\n            </p>\n\n            \n\n          </div>\n\n        </ion-col>\n\n      </ion-row>\n\n    \n\n        <ion-row class="weather-factors" text-center>\n\n          <ion-col col-4>\n\n            <ion-icon name="ios-water"></ion-icon>\n\n           <!-- <p>Light</p> -->\n\n            <p>30%</p>  \n\n          </ion-col>\n\n\n\n          <ion-col class="thermo-col" col-4>\n\n            <ion-icon name="thermometer"></ion-icon>\n\n           <!-- <p>Temp</p> -->\n\n            <p>11&deg;</p>  \n\n          </ion-col>\n\n\n\n          <ion-col col-4>\n\n            <ion-icon name="cloudy-night"></ion-icon>\n\n            <!-- <p>Cloudiness</p> -->\n\n            <p>3 km</p>  \n\n          </ion-col>\n\n        </ion-row>\n\n          \n\n    \n\n    <ion-row>\n\n      <ion-col>\n\n        <h6 strong> Show forecast for... </h6> \n\n          <ul>\n\n            <li><a href="#" (click)="GardetPlaces()">Gärdet</a></li> \n\n            <li><a href="#" (click)="TyrestaPlaces()">Flatens Naturreservat</a></li>\n\n            <li><a href="#" (click)="NackaPlaces()">Nackareservatet</a></li>\n\n            <li><a href="#" (click)="GrimstaPlaces()">Grimsta</a></li>\n\n            <li><a href="#" (click)="JarvaPlaces()"> Järvafältet</a></li>\n\n          </ul>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Choppah\PVT15\StarGaze\src\pages\today\today.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* PopoverController */]])
     ], TodayPage);
     return TodayPage;
 }());
@@ -1045,7 +1058,7 @@ var AboutPage = /** @class */ (function () {
     }
     AboutPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-about',template:/*ion-inline-start:"C:\Users\Choppah\PVT15\StarGaze\src\pages\about\about.html"*/'<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>About Us</ion-title>\n\n    <button ion-button menuToggle color="textColor">\n\n        <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n  </ion-navbar>\n\n \n\n </ion-header>\n\n \n\n \n\n <ion-content padding class="about">\n\n    <div text-center>\n\n        <h5 strong>\n\n            <p>\n\n                Hej! Vi är ett gäng studenter som har utvecklat denna fantastiska astronom app...\n\n              </p>\n\n        </h5>\n\n      </div>\n\n      <ion-icon padding class="help-icon" name="help-circle">\n\n      </ion-icon>\n\n \n\n \n\n \n\n </ion-content>'/*ion-inline-end:"C:\Users\Choppah\PVT15\StarGaze\src\pages\about\about.html"*/
+            selector: 'page-about',template:/*ion-inline-start:"C:\Users\Choppah\PVT15\StarGaze\src\pages\about\about.html"*/'<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>About Us</ion-title>\n\n    <button ion-button menuToggle color="textColor">\n\n        <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n  </ion-navbar>\n\n \n\n </ion-header>\n\n \n\n \n\n <ion-content padding class="about">\n\n    <div text-center padding class="about-text">\n\n        <h5>\n\n              STHLM StarGaze is an app developed by a group of students at Stockholm University in collaboration with the City of Stockholm. \n\n              The purpose of our app is to make stargazing in Stockholm more accessible, fun and social. This is possible because we use the smart dim lighting that is provided by the City of Stockholm.\n\n        </h5>\n\n      </div>\n\n      <div>\n\n      <ion-icon name="help-circle" padding class="help-icon" >\n\n          <p padding class="help-text">For help, please contact <a href="#"> info@sthlmstargaze.se</a></p>\n\n       \n\n      </ion-icon>\n\n    </div>\n\n \n\n \n\n </ion-content>'/*ion-inline-end:"C:\Users\Choppah\PVT15\StarGaze\src\pages\about\about.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */]])
     ], AboutPage);
@@ -1056,5 +1069,5 @@ var AboutPage = /** @class */ (function () {
 
 /***/ })
 
-},[212]);
+},[213]);
 //# sourceMappingURL=main.js.map

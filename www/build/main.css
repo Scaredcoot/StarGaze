@@ -51491,6 +51491,15 @@ ion-navbar.toolbar {
   background-size: cover;
 }
 
+.contact {
+  background: #380b61;
+  color: #df7401;
+  background-image: url("../assets/imgs/today_1024.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 /*
  .tabs-ios .tab-button-icon {
     color:color($colors, tabColor);
@@ -51538,7 +51547,59 @@ ion-navbar.toolbar {
 }
 
 page-about .help-icon {
-  font-size: 50px;
+  font-size: 35px;
+  color: #df7401;
+  text-align: center;
+}
+
+page-about .help-icon ion-icon {
+  float: right;
+}
+
+page-about .help-text {
+  color: #df7401;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+page-about a {
+  color: #f4f4f4;
+}
+
+page-about a:hover {
+  color: #df7401;
+}
+
+page-about .about-text {
+  margin-top: 75px;
+  color: #df7401;
+}
+
+page-contact ul {
+  list-style: none;
+  padding-left: 10px;
+}
+
+page-contact ul li {
+  padding-top: 10px;
+  text-align: center;
+}
+
+page-contact ul a {
+  color: #df7401;
+}
+
+page-contact ul ion-icon {
+  font-size: 33px;
+}
+
+page-contact .alignright {
+  text-align: center;
+}
+
+page-contact .text2 {
+  margin-top: 20px;
+  margin-bottom: -30px;
 }
 
 page-gardet .weather-factors {

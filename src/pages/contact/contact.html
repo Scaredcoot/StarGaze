@@ -1,17 +1,34 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Contact
+      Information
     </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content>
-  <ion-list>
-    <ion-list-header>Follow us on Twitter</ion-list-header>
-    <ion-item>
-      <ion-icon name="ionic" item-start></ion-icon>
-      @ionicframework
-    </ion-item>
-  </ion-list>
+<ion-content padding class="contact">
+    <ion-row>
+        <ion-col>
+          <div text-center>
+          <h4 strong> The meaning of the icons </h4> 
+           </div>
+            <ul>
+              <li><ion-icon name="ios-water"></ion-icon>
+              <p class="alignright">Estimated precipitation. Precipitation like rainfall or snowfall stops you from stargazing.</p></li> 
+              <li><ion-icon name="thermometer"></ion-icon><p class="alignright">Estimated temperature. The lower the better!</p></li> 
+              <li><ion-icon name="cloudy-night"></ion-icon>
+               <p class="alignright">Estimated cloudiness. Clouds are your enemy!
+                Our calculation is based on four different cloud factors, including altitude, density, transparency and classification.</p></li> 
+            </ul>
+            <div text-center padding class="text2">
+            <h5 strong> We also calculate the stargazing status based on this factor: </h5> 
+          </div>
+            <ul>
+              <li><ion-icon name="bulb"></ion-icon></li>
+              <p class="alignright">
+                  The number of luminous sources nearby and snow/rain on the ground that reflects light. This prevents the eye to catch the stars.
+              </p>
+            </ul>
+        </ion-col>
+      </ion-row>
 </ion-content>
