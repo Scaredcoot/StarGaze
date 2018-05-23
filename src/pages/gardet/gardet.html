@@ -16,13 +16,7 @@
             <h1 strong> Gärdet tonight</h1>
           </div>
           <div class="status" text-center>
-            <h5 strong>Good </h5>
-            <p>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star-outline"></ion-icon>
-            </p>
+            <h5 strong>{{grade}}</h5>
             
           </div>
         </ion-col>
@@ -32,19 +26,19 @@
           <ion-col col-4>
             <ion-icon name="ios-water"></ion-icon>
            <!-- <p>Light</p> -->
-            <p>30%</p>  
+            <p>{{rainfall}}</p>  
           </ion-col>
 
           <ion-col class="thermo-col" col-4>
             <ion-icon name="thermometer"></ion-icon>
            <!-- <p>Temp</p> -->
-            <p>11&deg;</p>  
+            <p>{{temp}}&deg;</p>  
           </ion-col>
 
           <ion-col col-4>
             <ion-icon name="cloudy-night"></ion-icon>
             <!-- <p>Cloudiness</p> -->
-            <p>3 km</p>  
+            <p>{{cloud}}</p>  
           </ion-col>
         </ion-row>
           
@@ -54,19 +48,19 @@
           <h6 strong> Forecast </h6>
           <hr class="divider">
           <ul>
-            <p class="alignright">Excellent</p>
+            <p class="alignright">{{day2}}</p>
             <li>Tuesday</li>
             <div style="clear: both;"></div>
-            <p class="alignright">Good</p>
+            <p class="alignright">{{day3}}</p>
             <li>Wednesday</li>
             <div style="clear: both;"></div>
-            <p class="alignright">Okey</p>
+            <p class="alignright">{{day4}}</p>
             <li>Thursday</li>
             <div style="clear: both;"></div>
-            <p class="alignright">Good</p>
+            <p class="alignright">{{day5}}</p>
             <li>Friday</li>
             <div style="clear: both;"></div>
-            <p class="alignright">Bad</p>
+            <p class="alignright">{{day6}}</p>
             <li>Saturday</li>
             <div style="clear: both;"></div>
   
